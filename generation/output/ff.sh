@@ -1,0 +1,1 @@
+ffmpeg -r 30 -start_number 0 -i "output%03d.png" -c:v libx264 -pix_fmt yuv420p out.mp4
