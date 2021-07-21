@@ -152,5 +152,74 @@
         ]
       }
     ]
+  },
+  {
+    "attribute": "leftarm",
+    "multiple": false,
+    "categories": [
+      {
+        "category": "leftarm",
+        "multiple": false,
+        "rarity": 100,
+        "files": [
+          {
+            "file": "leftarm-gearshift",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-slider",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-cig",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-bone",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-alien",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-gun",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-knife",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-alien-tech",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-syringe",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-buttons",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-robo-sleeve",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-robo-puppet",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-ipad",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-letter",
+            "rarity": 0
+          }
+        ]
+      }
+    ]
   }
 ]
