@@ -1,25 +1,26 @@
 [
   {
     "attribute": "cockpit",
+    "multiple": true,
     "categories": [
       {
         "category": "planets",
         "multiple": true,
         "files": [
           {
-            "file_name": "planet-ring",
+            "file": "planet-ring",
             "rarity": 0
           },
           {
-            "file_name": "wormhole",
+            "file": "wormhole",
             "rarity": 0
           },
           {
-            "file_name": "planet-purple",
+            "file": "planet-purple",
             "rarity": 0
           },
           {
-            "file_name": "planet-green",
+            "file": "planet-green",
             "rarity": 0
           }
         ]
@@ -28,20 +29,20 @@
         "category": "ships",
         "multiple": true,
         "files": [
-                    {
-            "file_name": "triforce",
+          {
+            "file": "triforce",
             "rarity": 0
           },
           {
-            "file_name": "trails",
+            "file": "trails",
             "rarity": 0
           },
           {
-            "file_name": "asteroid",
+            "file": "asteroid",
             "rarity": 0
           },
           {
-            "file_name": "cargo",
+            "file": "cargo",
             "rarity": 0
           }
         ]
@@ -49,6 +50,34 @@
     ]
   },
   {
-
+    "attribute": "panels",
+    "multiple": true,
+    "categories": [
+      {
+        "category": "panel-1",
+        "multiple": false,
+        "files": []
+      },
+      {
+        "category": "panel-2",
+        "multiple": false,
+        "files": []
+      },
+      {
+        "category": "panel-3",
+        "multiple": false,
+        "files": []
+      },
+      {
+        "category": "panel-4",
+        "multiple": false,
+        "files": []
+      },
+      {
+        "category": "panel-5",
+        "multiple": false,
+        "files": []
+      }
+    ]
   }
 ]
