@@ -1,11 +1,12 @@
 [
   {
-    "attribute": "cockpit",
+    "attribute": "space",
     "multiple": true,
     "categories": [
       {
         "category": "planets",
         "multiple": true,
+        "rarity": 100,
         "files": [
           {
             "file": "planet-ring",
@@ -28,6 +29,7 @@
       {
         "category": "ships",
         "multiple": true,
+        "rarity": 100,
         "files": [
           {
             "file": "triforce",
@@ -56,27 +58,65 @@
       {
         "category": "panel-1",
         "multiple": false,
+        "rarity": 20,
         "files": []
       },
       {
         "category": "panel-2",
         "multiple": false,
+        "rarity": 20,
         "files": []
       },
       {
         "category": "panel-3",
         "multiple": false,
+        "rarity": 20,
         "files": []
       },
       {
         "category": "panel-4",
         "multiple": false,
+        "rarity": 20,
         "files": []
       },
       {
         "category": "panel-5",
         "multiple": false,
+        "rarity": 20,
         "files": []
+      }
+    ]
+  },
+  {
+    "attribute": "window",
+    "multiple": false,
+    "categories": [
+      {
+        "category": "window",
+        "multiple": false,
+        "rarity": 100,
+        "files": [
+          {
+            "file": "window-blue",
+            "rarity": 0
+          },
+          {
+            "file": "window-purple",
+            "rarity": 0
+          },
+          {
+            "file": "window-green",
+            "rarity": 0
+          },
+          {
+            "file": "window-pink",
+            "rarity": 0
+          },
+          {
+            "file": "window-white",
+            "rarity": 0
+          }
+        ]
       }
     ]
   }
