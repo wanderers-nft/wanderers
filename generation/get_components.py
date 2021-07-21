@@ -4,6 +4,7 @@ from pprint import pprint
 from typing import List
 
 from PIL import Image
+from tqdm import tqdm
 
 folder = "source"
 
@@ -54,7 +55,7 @@ def get_files(attrib: str, category: str, files: str) -> List:
         if not os.path.isfile(file_name):
             file_name = f'{folder}/{attrib}/{category}/{files}/{files}_{0:05}.png'
 
-        images.append(Image.open(file_name).convert('RGBA'))
+        images.append(Image.open(file_name))
 
     return images
 

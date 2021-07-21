@@ -52,41 +52,30 @@ def get_attributes(manifest: Manifest) -> Frames:
 
 def combine_attributes(frames: Frames):
     for (n, star) in tqdm(enumerate(frames.stars)):
+        frame = star.copy()
+
         for space in [x[n] for x in frames.space]:
-            star.paste(space, mask=space)
+            frame.paste(space, mask=space)
 
         for panel in [x[n] for x in frames.panels]:
-            star.paste(panel, mask=panel)
+            frame.paste(panel, mask=panel)
 
         for window in [x[n] for x in frames.window]:
-            star.paste(window, mask=window)
+            frame.paste(window, mask=window)
 
         for cockpit in [x[n] for x in frames.cockpit]:
-            star.paste(cockpit, mask=cockpit)
+            frame.paste(cockpit, mask=cockpit)
 
         for leg in [x[n] for x in frames.legs]:
-            star.paste(leg, mask=leg)
+            frame.paste(leg, mask=leg)
 
         for leftarm in [x[n] for x in frames.leftarm]:
-            star.paste(leftarm, mask=leftarm)
+            frame.paste(leftarm, mask=leftarm)
 
         for rightarm in [x[n] for x in frames.rightarm]:
-            star.paste(rightarm, mask=rightarm)
+            frame.paste(rightarm, mask=rightarm)
 
-        star.save(f'output/output{n:05}.png')
-
-    # for (i, (leftarm, leg, panel, rightarm, space, star, cockpit, window)) in enumerate(
-    #         zip(leftarms, legs, panels, rightarms, spaces, stars, cockpits, windows)):
-    #     # Star is base
-    #     star.paste(space, mask=space)
-    #     star.paste(panel, mask=panel)
-    #     star.paste(window, mask=window)
-    #     star.paste(cockpit, mask=cockpit)
-    #     star.paste(leg, mask=leg)
-    #     star.paste(leftarm, mask=leftarm)
-    #     star.paste(rightarm, mask=rightarm)
-    # 
-    #     star.save(f'output/output{i:03}.png')
+        frame.save(f'output/output{n:05}.png')
 
 
 if __name__ == "__main__":

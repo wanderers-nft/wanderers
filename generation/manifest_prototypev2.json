@@ -58,7 +58,7 @@
       {
         "category": "panel-2",
         "multiple": false,
-        "rarity": 0.2,
+        "rarity": 0.5,
         "files": [
           {
             "file": "panel-2-bricks",
@@ -85,7 +85,7 @@
       {
         "category": "panel-3",
         "multiple": false,
-        "rarity": 0.2,
+        "rarity": 0.5,
         "files": [
           {
             "file": "panel-3-bricks",
@@ -112,7 +112,7 @@
       {
         "category": "panel-4",
         "multiple": false,
-        "rarity": 0.2,
+        "rarity": 0.5,
         "files": [
           {
             "file": "panel-4-bricks",
@@ -139,7 +139,7 @@
       {
         "category": "panel-5",
         "multiple": false,
-        "rarity": 0.2,
+        "rarity": 0.5,
         "files": [
           {
             "file": "panel-5-bricks",
