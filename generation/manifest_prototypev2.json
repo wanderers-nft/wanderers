@@ -14,15 +14,15 @@
           },
           {
             "file": "wormhole",
-            "rarity": 0
+            "rarity": 30
           },
           {
             "file": "planet-purple",
-            "rarity": 0
+            "rarity": 30
           },
           {
             "file": "planet-green",
-            "rarity": 0
+            "rarity": 30
           }
         ]
       },
@@ -32,20 +32,20 @@
         "rarity": 100,
         "files": [
           {
-            "file": "triforce",
-            "rarity": 0
+            "file": "ships-triforce",
+            "rarity": 30
           },
           {
             "file": "trails",
             "rarity": 0
           },
           {
-            "file": "asteroid",
-            "rarity": 0
+            "file": "ships-asteroid",
+            "rarity": 30
           },
           {
-            "file": "cargo",
-            "rarity": 0
+            "file": "ship-cargo",
+            "rarity": 30
           }
         ]
       }
@@ -56,34 +56,112 @@
     "multiple": true,
     "categories": [
       {
-        "category": "panel-1",
-        "multiple": false,
-        "rarity": 20,
-        "files": []
-      },
-      {
         "category": "panel-2",
         "multiple": false,
         "rarity": 20,
-        "files": []
+        "files": [
+          {
+            "file": "panel-2-bricks",
+            "rarity": 0
+          },
+          {
+            "file": "panel-2-waves",
+            "rarity": 20
+          },
+          {
+            "file": "panel-2-crypto",
+            "rarity": 20
+          },
+          {
+            "file": "panel-2-tetris",
+            "rarity": 0
+          },
+          {
+            "file": "panel-2-noisy",
+            "rarity": 20
+          }
+        ]
       },
       {
         "category": "panel-3",
         "multiple": false,
         "rarity": 20,
-        "files": []
+        "files": [
+          {
+            "file": "panel-3-bricks",
+            "rarity": 20
+          },
+          {
+            "file": "panel-3-waves",
+            "rarity": 20
+          },
+          {
+            "file": "panel-3-crypto",
+            "rarity": 20
+          },
+          {
+            "file": "panel-3-tetris",
+            "rarity": 0
+          },
+          {
+            "file": "panel-3-noisy",
+            "rarity": 0
+          }
+        ]
       },
       {
         "category": "panel-4",
         "multiple": false,
         "rarity": 20,
-        "files": []
+        "files": [
+          {
+            "file": "panel-4-bricks",
+            "rarity": 20
+          },
+          {
+            "file": "panel-4-waves",
+            "rarity": 20
+          },
+          {
+            "file": "panel-4-crypto",
+            "rarity": 20
+          },
+          {
+            "file": "panel-4-tetris",
+            "rarity": 0
+          },
+          {
+            "file": "panel-4-noisy",
+            "rarity": 0
+          }
+        ]
       },
       {
         "category": "panel-5",
         "multiple": false,
         "rarity": 20,
-        "files": []
+        "files": [
+          {
+            "file": "panel-5-bricks",
+            "rarity": 20
+          },
+          {
+            "file": "panel-5-waves",
+            "rarity": 20
+          },
+          {
+            "file": "panel-5-crypto",
+            "rarity": 20
+          },
+          {
+            "file": "panel-5-tetris",
+            "rarity": 0
+          },
+          {
+            "file": "panel-5-noisy",
+            "rarity": 0
+          }
+        ]
       }
     ]
   },
@@ -98,23 +176,23 @@
         "files": [
           {
             "file": "window-blue",
-            "rarity": 0
+            "rarity": 20
           },
           {
             "file": "window-purple",
-            "rarity": 0
+            "rarity": 20
           },
           {
             "file": "window-green",
-            "rarity": 0
+            "rarity": 20
           },
           {
             "file": "window-pink",
-            "rarity": 0
+            "rarity": 20
           },
           {
             "file": "window-white",
-            "rarity": 0
+            "rarity": 20
           }
         ]
       }
@@ -131,11 +209,11 @@
         "files": [
           {
             "file": "cockpit-1",
-            "rarity": 0
+            "rarity": 33
           },
           {
             "file": "cockpit-2",
-            "rarity": 0
+            "rarity": 33
           },
           {
             "file": "cockpit-3",
@@ -143,7 +221,7 @@
           },
           {
             "file": "cockpit-4",
-            "rarity": 0
+            "rarity": 33
           },
           {
             "file": "cockpit-5",
@@ -164,11 +242,11 @@
         "files": [
           {
             "file": "leftarm-gearshift",
-            "rarity": 0
+            "rarity": 25
           },
           {
             "file": "leftarm-slider",
-            "rarity": 0
+            "rarity": 25
           },
           {
             "file": "leftarm-cig",
@@ -176,7 +254,7 @@
           },
           {
             "file": "leftarm-bone",
-            "rarity": 0
+            "rarity": 25
           },
           {
             "file": "leftarm-alien",
@@ -200,23 +278,7 @@
           },
           {
             "file": "leftarm-buttons",
-            "rarity": 0
-          },
-          {
-            "file": "leftarm-robo-sleeve",
-            "rarity": 0
-          },
-          {
-            "file": "leftarm-robo-puppet",
-            "rarity": 0
-          },
-          {
-            "file": "leftarm-ipad",
-            "rarity": 0
-          },
-          {
-            "file": "leftarm-letter",
-            "rarity": 0
+            "rarity": 25
           }
         ]
       }
@@ -233,19 +295,19 @@
         "files": [
           {
             "file": "rightarm-gearshift",
-            "rarity": 0
+            "rarity": 20
           },
           {
             "file": "rightarm-slider",
-            "rarity": 0
+            "rarity": 20
           },
           {
             "file": "rightarm-cig",
-            "rarity": 0
+            "rarity": 20
           },
           {
             "file": "rightarm-bone",
-            "rarity": 0
+            "rarity": 20
           },
           {
             "file": "rightarm-alien",
@@ -269,7 +331,7 @@
           },
           {
             "file": "rightarm-buttons",
-            "rarity": 0
+            "rarity": 20
           },
           {
             "file": "rightarm-robo-sleeve",
@@ -285,6 +347,39 @@
           },
           {
             "file": "rightarm-letter",
+            "rarity": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "attribute": "legs",
+    "multiple": false,
+    "categories": [
+      {
+        "category": "legs",
+        "multiple": false,
+        "rarity": 100,
+        "files": [
+          {
+            "file": "legs-1",
+            "rarity": 50
+          },
+          {
+            "file": "legs-2",
+            "rarity": 50
+          },
+          {
+            "file": "legs-3",
+            "rarity": 0
+          },
+          {
+            "file": "legs-4",
+            "rarity": 0
+          },
+          {
+            "file": "legs-5",
             "rarity": 0
           }
         ]
