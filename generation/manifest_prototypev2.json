@@ -119,5 +119,38 @@
         ]
       }
     ]
+  },
+  {
+    "attribute": "cockpit",
+    "multiple": false,
+    "categories": [
+      {
+        "category": "cockpit",
+        "multiple": false,
+        "rarity": 100,
+        "files": [
+          {
+            "file": "cockpit-1",
+            "rarity": 0
+          },
+          {
+            "file": "cockpit-2",
+            "rarity": 0
+          },
+          {
+            "file": "cockpit-3",
+            "rarity": 0
+          },
+          {
+            "file": "cockpit-4",
+            "rarity": 0
+          },
+          {
+            "file": "cockpit-5",
+            "rarity": 0
+          }
+        ]
+      }
+    ]
   }
 ]
