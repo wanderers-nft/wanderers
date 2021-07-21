@@ -1,3 +1,4 @@
 source/
 output/*.mp4
 output/*.png
+output/run*
