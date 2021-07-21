@@ -63,7 +63,6 @@ def get_files(attrib: str, category: str, files: str) -> List:
 def get(attrib) -> List:
     categories = fetch_categories(attrib)
     files_list = [(category["category"], files_in_category(category)) for category in categories]
-    pprint(files_list)
     x = [
         get_files(
             attrib["attribute"],
