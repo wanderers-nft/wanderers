@@ -1,11 +1,8 @@
-import gc
 import json
 import multiprocessing
 import os
 from dataclasses import dataclass
-from typing import List
-
-from tqdm import tqdm
+from typing import List, Dict
 
 from generation.get_components import get, get_stars
 
@@ -55,29 +52,48 @@ def main():
 
 def worker(start: int, stop: int, manifest: Manifest):
     for n in range(start, stop):
-        frames = get_attributes(manifest)
+        frames, data = get_attributes(manifest)
+
+        os.makedirs(f'output/{str(n)}', exist_ok=True)
+        with open(f'output/{str(n)}/metadata.json', 'w') as f:
+            json.dump(data, f)
+
         combine_attributes(frames, str(n))
         print(f'Done {n}')
     pass
 
 
-def get_attributes(manifest: Manifest) -> Frames:
+def get_attributes(manifest: Manifest) -> [Frames, Dict]:
     # Get each of them according to manifest
-    leftarm = get(manifest.attribute("leftarm"))
-    legs = get(manifest.attribute("legs"))
-    panels = get(manifest.attribute("panels"))
-    rightarm = get(manifest.attribute("rightarm"))
-    spaces = get(manifest.attribute("space"))
-    stars = get_stars()
-    cockpit = get(manifest.attribute("cockpit"))
-    window = get(manifest.attribute("window"))
+    data = {}
 
-    return Frames(leftarm, legs, panels, rightarm, spaces, stars, cockpit, window)
+    leftarm, d = get(manifest.attribute("leftarm"))
+    data.update(d)
+
+    legs, d = get(manifest.attribute("legs"))
+    data.update(d)
+
+    panels, d = get(manifest.attribute("panels"))
+    data.update(d)
+
+    rightarm, d = get(manifest.attribute("rightarm"))
+    data.update(d)
+
+    spaces, d = get(manifest.attribute("space"))
+    data.update(d)
+
+    stars = get_stars()
+
+    cockpit, d = get(manifest.attribute("cockpit"))
+    data.update(d)
+
+    window, d = get(manifest.attribute("window"))
+    data.update(d)
+
+    return Frames(leftarm, legs, panels, rightarm, spaces, stars, cockpit, window), data
 
 
 def combine_attributes(frames: Frames, prefix: str):
-    os.makedirs(f'output/{prefix}', exist_ok=True)
-
     for (n, star) in enumerate(frames.stars):
         frame = star.copy()
 

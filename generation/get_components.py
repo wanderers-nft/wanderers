@@ -1,10 +1,9 @@
 import os.path
 import random
 from pprint import pprint
-from typing import List
+from typing import List, Dict
 
 from PIL import Image
-from tqdm import tqdm
 
 folder = "source"
 
@@ -60,10 +59,10 @@ def get_files(attrib: str, category: str, files: str) -> List:
     return images
 
 
-def get(attrib) -> List:
+def get(attrib) -> [List, Dict]:
     categories = fetch_categories(attrib)
     files_list = [(category["category"], files_in_category(category)) for category in categories]
-    x = [
+    fs = [
         get_files(
             attrib["attribute"],
             c[0],
@@ -71,7 +70,8 @@ def get(attrib) -> List:
         )
         for c in files_list for f in c[1]
     ]
-    return x
+    data = {attrib["attribute"]: [f["file"] for c in files_list for f in c[1]]}
+    return fs, data
     # Read files
 
 
