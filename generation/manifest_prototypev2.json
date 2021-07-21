@@ -1,0 +1,54 @@
+[
+  {
+    "attribute": "cockpit",
+    "categories": [
+      {
+        "category": "planets",
+        "multiple": true,
+        "files": [
+          {
+            "file_name": "planet-ring",
+            "rarity": 0
+          },
+          {
+            "file_name": "wormhole",
+            "rarity": 0
+          },
+          {
+            "file_name": "planet-purple",
+            "rarity": 0
+          },
+          {
+            "file_name": "planet-green",
+            "rarity": 0
+          }
+        ]
+      },
+      {
+        "category": "ships",
+        "multiple": true,
+        "files": [
+                    {
+            "file_name": "triforce",
+            "rarity": 0
+          },
+          {
+            "file_name": "trails",
+            "rarity": 0
+          },
+          {
+            "file_name": "asteroid",
+            "rarity": 0
+          },
+          {
+            "file_name": "cargo",
+            "rarity": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+
+  }
+]
