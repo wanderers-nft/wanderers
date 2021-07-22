@@ -12,11 +12,33 @@ contract Traveler is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
 
     Counters.Counter private _tokenIdCounter;
 
-    constructor() ERC721("Traveler", "TRAVEL") {}
+    // Where funds should be sent to
+    address public fundsTo;
 
-    function safeMint(address to) public onlyOwner {
-        _safeMint(to, _tokenIdCounter.current());
-        _tokenIdCounter.increment();
+    // Maximum supply of the NFT
+    uint256 public maxSupply;
+
+    // Maximum mints per transaction
+    uint256 public maxPerTx;
+
+    constructor(address fundsTo_, uint256 maxSupply_, uint256 maxPerTx_) ERC721("Traveler", "TRAVEL") {
+        fundsTo = fundsTo_;
+        maxSupply = maxSupply_;
+        maxPerTx = maxPerTx_;
+    }
+
+    function updateFundsTo(address newFundsTo) public onlyOwner {
+        fundsTo = newFundsTo;
+    }
+
+    function safeMint(address to, uint256 quantity) public {
+        require(super.totalSupply() + quantity < maxSupply, "Total supply will exceed limit");
+        require(quantity <= maxPerTx, "Requested quantity more than maximum");
+
+        for (uint256 i = 0; i < quantity; i++) {
+            _safeMint(to, _tokenIdCounter.current());
+            _tokenIdCounter.increment();
+        }
     }
 
     function _baseURI() internal pure override returns (string memory) {
