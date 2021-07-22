@@ -254,7 +254,7 @@
           },
           {
             "file": "leftarm-shifter",
-            "rarity": 1
+            "rarity": 0
           },
           {
             "file": "leftarm-slider",
@@ -262,7 +262,7 @@
           },
           {
             "file": "leftarm-cig",
-            "rarity": 0.25
+            "rarity": 0
           },
           {
             "file": "leftarm-bone",
@@ -278,15 +278,15 @@
           },
           {
             "file": "leftarm-knife",
-            "rarity": 0.25
+            "rarity": 0
           },
           {
             "file": "leftarm-alien-tech",
-            "rarity": 0.1
+            "rarity": 0
           },
           {
             "file": "leftarm-syringe",
-            "rarity": 0.25
+            "rarity": 0
           },
           {
             "file": "leftarm-buttons",
@@ -298,15 +298,23 @@
           },
           {
             "file": "leftarm-portal",
-            "rarity": 0.1
+            "rarity": 0
           },
           {
             "file": "leftarm-swipe",
-            "rarity": 1
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-hologram",
+            "rarity": 0.25
           },
           {
             "file": "leftarm-treasure",
             "rarity": 1
+          },
+          {
+            "file": "leftarm-jar",
+            "rarity": 0.25
           }
         ]
       }
