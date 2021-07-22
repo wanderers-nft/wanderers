@@ -23,6 +23,14 @@
           {
             "file": "planet-green",
             "rarity": 0.34
+          },
+          {
+            "file": "stars-red",
+            "rarity": 0
+          },
+          {
+            "file": "stars-blue",
+            "rarity": 0
           }
         ]
       },
@@ -242,23 +250,27 @@
         "files": [
           {
             "file": "leftarm-gearshift",
-            "rarity": 0.25
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-shifter",
+            "rarity": 1
           },
           {
             "file": "leftarm-slider",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "leftarm-cig",
-            "rarity": 0
+            "rarity": 0.25
           },
           {
             "file": "leftarm-bone",
             "rarity": 0.25
           },
           {
-            "file": "leftarm-alien",
-            "rarity": 0
+            "file": "leftarm-gearshift-alien",
+            "rarity": 1
           },
           {
             "file": "leftarm-gun",
@@ -266,19 +278,35 @@
           },
           {
             "file": "leftarm-knife",
-            "rarity": 0
+            "rarity": 0.25
           },
           {
             "file": "leftarm-alien-tech",
-            "rarity": 0
+            "rarity": 0.1
           },
           {
             "file": "leftarm-syringe",
-            "rarity": 0
+            "rarity": 0.25
           },
           {
             "file": "leftarm-buttons",
-            "rarity": 0.25
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-robo-sleeve",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-portal",
+            "rarity": 0.1
+          },
+          {
+            "file": "leftarm-swipe",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-treasure",
+            "rarity": 1
           }
         ]
       }
