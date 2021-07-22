@@ -1,18 +1,25 @@
-const { expect } = require("chai");
+const {expect} = require("chai");
 
 describe("Greeter", function () {
-  it("Should return the new greeting once it's changed", async function () {
-    const Greeter = await ethers.getContractFactory("Greeter");
-    const greeter = await Greeter.deploy("Hello, world!");
-    await greeter.deployed();
+    let traveler;
+    let accounts;
 
-    expect(await greeter.greet()).to.equal("Hello, world!");
+    beforeEach(async function () {
+        accounts = await ethers.getSigners();
 
-    const setGreetingTx = await greeter.setGreeting("Hola, mundo!");
+        const Traveler = await ethers.getContractFactory("Traveler");
+        traveler = await Traveler.connect(accounts[0]).deploy(accounts[0].address, 1000, 16);
+        await traveler.deployed();
+    })
 
-    // wait until the transaction is mined
-    await setGreetingTx.wait();
+    it("Should be able to mint one", async function () {
+        await traveler.connect(accounts[0]).enableSale();
+        await traveler.connect(accounts[0]).safeMint(accounts[0].address, 1);
+    });
 
-    expect(await greeter.greet()).to.equal("Hola, mundo!");
-  });
+    it("Should be able to mint up to limit", async function () {
+        await traveler.connect(accounts[0]).enableSale();
+        await traveler.connect(accounts[0]).safeMint(accounts[0].address, 16);
+    });
+
 });
