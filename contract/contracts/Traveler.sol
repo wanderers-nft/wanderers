@@ -53,7 +53,7 @@ contract Traveler is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
         // Transaction must have at least quantity * price (any more is considered a tip)
         require(quantity * pricePer <= msg.value, "Not enough ether sent");
         // Mint operation cannot lead to more than max supply
-        require(super.totalSupply() + quantity < maxSupply, "Total supply will exceed limit");
+        require(super.totalSupply() + quantity <= maxSupply, "Total supply will exceed limit");
 
         // Already checked that there is enough ether
         fundsTo.transfer(msg.value);

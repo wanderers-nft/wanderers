@@ -45,4 +45,19 @@ describe("Traveler", function () {
         })).to.be.revertedWith("Not enough ether sent");
     });
 
+    it("Should not be possible for more than max supply to exist", async function () {
+        await traveler.connect(accounts[0]).enableSale();
+        for (let i = 0; i < 100; i++) {
+            await traveler.connect(accounts[0]).safeMint(accounts[0].address, 10, {
+                value: ethers.utils.parseEther("0.5")
+            });
+        }
+
+        expect(traveler.connect(accounts[0]).safeMint(accounts[0].address, 1, {
+            value: ethers.utils.parseEther("0.05")
+        })).to.be.revertedWith("Total supply will exceed limit");
+
+    });
+
+
 });
