@@ -6,7 +6,7 @@
       {
         "category": "planets",
         "multiple": true,
-        "rarity": 1,
+        "rarity": 0.75,
         "files": [
           {
             "file": "planet-ring",
@@ -37,7 +37,7 @@
       {
         "category": "ships",
         "multiple": true,
-        "rarity": 1,
+        "rarity": 0.75,
         "files": [
           {
             "file": "ships-triforce",
