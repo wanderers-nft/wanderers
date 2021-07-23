@@ -14,15 +14,15 @@
           },
           {
             "file": "wormhole",
-            "rarity": 0.33
+            "rarity": 0.25
           },
           {
             "file": "planet-purple",
-            "rarity": 0.33
+            "rarity": 0.25
           },
           {
             "file": "planet-green",
-            "rarity": 0.34
+            "rarity": 0.25
           },
           {
             "file": "stars-red",
@@ -41,7 +41,7 @@
         "files": [
           {
             "file": "ships-triforce",
-            "rarity": 0.33
+            "rarity": 0.25
           },
           {
             "file": "trails",
@@ -49,11 +49,11 @@
           },
           {
             "file": "ships-asteroid",
-            "rarity": 0.33
+            "rarity": 0.25
           },
           {
             "file": "ships-cargo",
-            "rarity": 0.34
+            "rarity": 0.25
           }
         ]
       }

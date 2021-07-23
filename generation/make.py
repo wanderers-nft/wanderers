@@ -28,10 +28,10 @@ class Manifest:
 
 
 def main():
-    manifest = Manifest(json.load(open('manifest_prototypev2.json')))
+    manifest = Manifest(json.load(open("manifest_prototypev2.json")))
 
     procs = 2
-    n = 50
+    n = 100
     increment = int(n / procs)
     jobs = []
     start = 0
@@ -54,12 +54,12 @@ def worker(start: int, stop: int, manifest: Manifest):
     for n in range(start, stop):
         frames, data = get_attributes(manifest)
 
-        os.makedirs(f'output/{str(n)}', exist_ok=True)
-        with open(f'output/{str(n)}/metadata.json', 'w') as f:
+        os.makedirs(f"output/{str(n)}", exist_ok=True)
+        with open(f"output/{str(n)}/metadata.json", "w") as f:
             json.dump(data, f)
 
         combine_attributes(frames, str(n))
-        print(f'Done {n}')
+        print(f"Done {n}")
     pass
 
 
@@ -118,7 +118,7 @@ def combine_attributes(frames: Frames, prefix: str):
         for rightarm in [x[n] for x in frames.rightarm]:
             frame.paste(rightarm, mask=rightarm)
 
-        frame.save(f'output/{prefix}/{prefix}_{n:05}.png')
+        frame.save(f"output/{prefix}/{prefix}_{n:05}.png")
 
 
 if __name__ == "__main__":
