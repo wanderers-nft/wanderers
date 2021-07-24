@@ -1,6 +1,5 @@
 import os.path
 import random
-from pprint import pprint
 from typing import List, Dict
 
 from PIL import Image
@@ -17,9 +16,10 @@ def fetch_categories(manifest) -> List:
     # Get all categories
     categories = manifest["categories"]
 
-    if manifest["multiple"]:
-        categories = list(filter(lambda cat: chance(cat["rarity"]), categories))
-    else:
+    # If not multiple then pick one based on relative rarity.
+    # However, if there are multiple available, then all categories are selected. The base chance will
+    # be compounded by individual files.
+    if not manifest["multiple"]:
         categories = random.choices(
             population=categories, weights=[x["rarity"] for x in categories], k=1
         )
@@ -32,7 +32,10 @@ def files_in_category(category) -> List:
     files = category["files"]
 
     if category["multiple"]:
-        files = list(filter(lambda cat: chance(cat["rarity"]), files))
+        # Since the base category rarity was not filtered out, it is multiplied here
+        files = list(
+            filter(lambda file: chance(file["rarity"] * category["rarity"]), files)
+        )
     else:
         files = random.choices(
             population=files, weights=[x["rarity"] for x in files], k=1

@@ -31,7 +31,7 @@ def main():
     manifest = Manifest(json.load(open("manifest_prototypev2.json")))
 
     procs = 2
-    n = 100
+    n = 10
     increment = int(n / procs)
     jobs = []
     start = 0
