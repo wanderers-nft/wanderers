@@ -64,6 +64,18 @@ contract Traveler is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
         }
     }
 
+    function preMint(address to, uint256 quantity) public onlyOwner {
+        // Sale must NOT be enabled
+        require(!sale, "Sale already in progress");
+        require(quantity != 0, "Requested quantity cannot be zero");
+        require(super.totalSupply() + quantity <= maxSupply, "Total supply will exceed limit");
+
+        for (uint256 i = 0; i < quantity; i++) {
+            _safeMint(to, _tokenIdCounter.current());
+            _tokenIdCounter.increment();
+        }
+    }
+
     function _baseURI() internal pure override returns (string memory) {
         return "ipfs://REPLACE_ME";
     }

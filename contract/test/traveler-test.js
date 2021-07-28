@@ -24,6 +24,25 @@ describe("Traveler", function () {
         });
     });
 
+    it("Should be able to pre-mint one", async function () {
+        await traveler.connect(accounts[0]).preMint(accounts[0].address, 1);
+    });
+
+    it("Should be able to pre-mint multiple", async function () {
+        await traveler.connect(accounts[0]).preMint(accounts[0].address, 42);
+    });
+
+    it("Should not able to pre-mint from non-owner", async function () {
+        expect(traveler.connect(accounts[1]).preMint(accounts[0].address, 1))
+            .to.be.revertedWith("Ownable: caller is not the owner");
+    });
+
+    it("Should not able to pre-mint after sale beings", async function () {
+        await traveler.connect(accounts[0]).enableSale();
+        expect(traveler.connect(accounts[0]).preMint(accounts[0].address, 1))
+            .to.be.revertedWith("Sale already in progress");
+    });
+
     it("Should be able to mint up to limit", async function () {
         await traveler.connect(accounts[0]).enableSale();
         await traveler.connect(accounts[0]).safeMint(accounts[0].address, 16, {
