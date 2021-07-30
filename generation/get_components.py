@@ -37,6 +37,10 @@ def files_in_category(category) -> List:
             filter(lambda file: chance(file["rarity"] * category["rarity"]), files)
         )
     else:
+        # If there is only one choice, then try base chance.
+        if not chance(category["rarity"]):
+            return []
+
         files = random.choices(
             population=files, weights=[x["rarity"] for x in files], k=1
         )
@@ -46,7 +50,12 @@ def files_in_category(category) -> List:
 
 def get_files(attrib: str, category: str, files: str) -> List:
     images = []
-    for i in range(0, 131):
+    # Hack: determine if files start at 0 or 1
+    start, end = 0, 131
+    if not os.path.isfile(f"{folder}/{attrib}/{category}/{files}/{files}_{0:05}.png"):
+        start, end = 1, 132
+
+    for i in range(start, end):
         file_name = f"{folder}/{attrib}/{category}/{files}/{files}_{i:05}.png"
 
         # FIXME: All files should have 131 frames
@@ -73,5 +82,5 @@ def get(attrib) -> [List, Dict]:
     # Read files
 
 
-def get_stars() -> List:
-    return get_files("stars", "stars", "stars")
+def get_base() -> List:
+    return get_files("base", "base", "base")

@@ -152,7 +152,7 @@
       {
         "category": "panel-1",
         "multiple": false,
-        "rarity": 0.5,
+        "rarity": 0.25,
         "files": [
           {
             "file": "panel-1-bricks",
@@ -259,7 +259,7 @@
       {
         "category": "panel-2",
         "multiple": false,
-        "rarity": 0.5,
+        "rarity": 0.25,
         "files": [
           {
             "file": "panel-2-bricks",
@@ -366,7 +366,7 @@
       {
         "category": "panel-3",
         "multiple": false,
-        "rarity": 0.5,
+        "rarity": 0.25,
         "files": [
           {
             "file": "panel-3-bricks",
@@ -473,7 +473,7 @@
       {
         "category": "panel-4",
         "multiple": false,
-        "rarity": 0.5,
+        "rarity": 0.25,
         "files": [
           {
             "file": "panel-4-bricks",
@@ -580,7 +580,7 @@
       {
         "category": "panel-5",
         "multiple": false,
-        "rarity": 0.5,
+        "rarity": 0.25,
         "files": [
           {
             "file": "panel-5-bricks",
@@ -687,7 +687,7 @@
     ]
   },
   {
-    "attribute": "window",
+    "attribute": "windows",
     "multiple": false,
     "categories": [
       {
@@ -1119,6 +1119,10 @@
             "rarity": 0.1
           },
           {
+            "file": "rightarm-pulse",
+            "rarity": 1
+          },
+          {
             "file": "rightarm-robocharge",
             "rarity": 1
           },
@@ -1153,10 +1157,6 @@
           {
             "file": "rightarm-takeout",
             "rarity": 0
-          },
-          {
-            "file": "rightarm-thrust",
-            "rarity": 1
           },
           {
             "file": "rightarm-treasure",

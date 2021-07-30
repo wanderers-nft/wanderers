@@ -2,19 +2,19 @@ import json
 import multiprocessing
 import os
 from dataclasses import dataclass
+from pprint import pprint
 from typing import List, Dict
 
-from generation.get_components import get, get_stars
+from generation.get_components import get, get_base
 
 
 @dataclass
 class Frames:
     leftarm: List
-    legs: List
     panels: List[List]
     rightarm: List
     space: List[List]
-    stars: List
+    base: List
     cockpit: List
     window: List
 
@@ -28,9 +28,9 @@ class Manifest:
 
 
 def main():
-    manifest = Manifest(json.load(open("manifest_prototypev2.json")))
+    manifest = Manifest(json.load(open("files_manifest.json")))
 
-    procs = 2
+    procs = 1
     n = 10
     increment = int(n / procs)
     jobs = []
@@ -67,34 +67,33 @@ def get_attributes(manifest: Manifest) -> [Frames, Dict]:
     # Get each of them according to manifest
     data = {}
 
-    leftarm, d = get(manifest.attribute("leftarm"))
-    data.update(d)
-
-    legs, d = get(manifest.attribute("legs"))
+    leftarm, d = get(manifest.attribute("left-arm"))
     data.update(d)
 
     panels, d = get(manifest.attribute("panels"))
     data.update(d)
 
-    rightarm, d = get(manifest.attribute("rightarm"))
+    rightarm, d = get(manifest.attribute("right-arm"))
     data.update(d)
 
     spaces, d = get(manifest.attribute("space"))
     data.update(d)
 
-    stars = get_stars()
+    base = get_base()
 
-    cockpit, d = get(manifest.attribute("cockpit"))
+    cockpit, d = get(manifest.attribute("cockpits"))
     data.update(d)
 
-    window, d = get(manifest.attribute("window"))
+    window, d = get(manifest.attribute("windows"))
     data.update(d)
 
-    return Frames(leftarm, legs, panels, rightarm, spaces, stars, cockpit, window), data
+    pprint(data)
+
+    return Frames(leftarm, panels, rightarm, spaces, base, cockpit, window), data
 
 
 def combine_attributes(frames: Frames, prefix: str):
-    for (n, star) in enumerate(frames.stars):
+    for (n, star) in enumerate(frames.base):
         frame = star.copy()
 
         for space in [x[n] for x in frames.space]:
@@ -108,9 +107,6 @@ def combine_attributes(frames: Frames, prefix: str):
 
         for cockpit in [x[n] for x in frames.cockpit]:
             frame.paste(cockpit, mask=cockpit)
-
-        for leg in [x[n] for x in frames.legs]:
-            frame.paste(leg, mask=leg)
 
         for leftarm in [x[n] for x in frames.leftarm]:
             frame.paste(leftarm, mask=leftarm)
