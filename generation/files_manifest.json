@@ -41,7 +41,7 @@
       {
         "category": "planets",
         "multiple": true,
-        "rarity": 0.5,
+        "rarity": 0.25,
         "files": [
           {
             "file": "asteroid-belt",
@@ -80,7 +80,7 @@
             "rarity": 0.1
           },
           {
-            "file": "planet-belt",
+            "file": "planet-trio",
             "rarity": 0.1
           }
         ]
@@ -152,7 +152,7 @@
       {
         "category": "panel-1",
         "multiple": false,
-        "rarity": 0.25,
+        "rarity": 0.5,
         "files": [
           {
             "file": "panel-1-bricks",
@@ -175,7 +175,7 @@
             "rarity": 1
           },
           {
-            "file": "panel-1-hexagon",
+            "file": "panel-1-hexagons",
             "rarity": 1
           },
           {
@@ -259,7 +259,7 @@
       {
         "category": "panel-2",
         "multiple": false,
-        "rarity": 0.25,
+        "rarity": 0.5,
         "files": [
           {
             "file": "panel-2-bricks",
@@ -282,7 +282,7 @@
             "rarity": 1
           },
           {
-            "file": "panel-2-hexagon",
+            "file": "panel-2-hexagons",
             "rarity": 1
           },
           {
@@ -366,7 +366,7 @@
       {
         "category": "panel-3",
         "multiple": false,
-        "rarity": 0.25,
+        "rarity": 0.5,
         "files": [
           {
             "file": "panel-3-bricks",
@@ -389,7 +389,7 @@
             "rarity": 1
           },
           {
-            "file": "panel-3-hexagon",
+            "file": "panel-3-hexagons",
             "rarity": 1
           },
           {
@@ -473,7 +473,7 @@
       {
         "category": "panel-4",
         "multiple": false,
-        "rarity": 0.25,
+        "rarity": 0.5,
         "files": [
           {
             "file": "panel-4-bricks",
@@ -496,7 +496,7 @@
             "rarity": 1
           },
           {
-            "file": "panel-4-hexagon",
+            "file": "panel-4-hexagons",
             "rarity": 1
           },
           {
@@ -580,7 +580,7 @@
       {
         "category": "panel-5",
         "multiple": false,
-        "rarity": 0.25,
+        "rarity": 0.5,
         "files": [
           {
             "file": "panel-5-bricks",
@@ -603,7 +603,7 @@
             "rarity": 1
           },
           {
-            "file": "panel-5-hexagon",
+            "file": "panel-5-hexagons",
             "rarity": 1
           },
           {
@@ -918,6 +918,10 @@
             "rarity": 1
           },
           {
+            "file": "leftarm-joint",
+            "rarity": 1
+          },
+          {
             "file": "leftarm-knife",
             "rarity": 1
           },
@@ -1095,6 +1099,10 @@
             "rarity": 1
           },
           {
+            "file": "rightarm-joint",
+            "rarity": 1
+          },
+          {
             "file": "rightarm-jar-eyes",
             "rarity": 1
           },
@@ -1117,10 +1125,6 @@
           {
             "file": "rightarm-porn",
             "rarity": 0.1
-          },
-          {
-            "file": "rightarm-pulse",
-            "rarity": 1
           },
           {
             "file": "rightarm-robocharge",
@@ -1157,6 +1161,10 @@
           {
             "file": "rightarm-takeout",
             "rarity": 0
+          },
+          {
+            "file": "rightarm-thrust",
+            "rarity": 1
           },
           {
             "file": "rightarm-treasure",

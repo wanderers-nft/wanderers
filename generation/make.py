@@ -2,7 +2,6 @@ import json
 import multiprocessing
 import os
 from dataclasses import dataclass
-from pprint import pprint
 from typing import List, Dict
 
 from generation.get_components import get, get_base
@@ -30,8 +29,8 @@ class Manifest:
 def main():
     manifest = Manifest(json.load(open("files_manifest.json")))
 
-    procs = 1
-    n = 10
+    procs = 4
+    n = 100
     increment = int(n / procs)
     jobs = []
     start = 0
@@ -87,8 +86,6 @@ def get_attributes(manifest: Manifest) -> [Frames, Dict]:
     window, d = get(manifest.attribute("windows"))
     data.update(d)
 
-    pprint(data)
-
     return Frames(leftarm, panels, rightarm, spaces, base, cockpit, window), data
 
 
@@ -115,6 +112,7 @@ def combine_attributes(frames: Frames, prefix: str):
             frame.paste(rightarm, mask=rightarm)
 
         frame.save(f"output/{prefix}/{prefix}_{n:05}.png")
+        break
 
 
 if __name__ == "__main__":
