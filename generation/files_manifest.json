@@ -748,7 +748,7 @@
     ]
   },
   {
-    "attribute": "cockpit",
+    "attribute": "cockpits",
     "multiple": false,
     "categories": [
       {
@@ -817,7 +817,7 @@
     ]
   },
   {
-    "attribute": "leftarm",
+    "attribute": "left-arm",
     "multiple": false,
     "categories": [
       {
@@ -1002,7 +1002,7 @@
     ]
   },
   {
-    "attribute": "rightarm",
+    "attribute": "right-arm",
     "multiple": false,
     "categories": [
       {
