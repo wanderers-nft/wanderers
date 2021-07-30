@@ -29,8 +29,8 @@ class Manifest:
 def main():
     manifest = Manifest(json.load(open("files_manifest.json")))
 
-    procs = 4
-    n = 100
+    procs = 2
+    n = 50
     increment = int(n / procs)
     jobs = []
     start = 0
@@ -91,6 +91,10 @@ def get_attributes(manifest: Manifest) -> [Frames, Dict]:
 
 def combine_attributes(frames: Frames, prefix: str):
     for (n, star) in enumerate(frames.base):
+        # override frame
+        # if n != 65:
+        #     continue
+
         frame = star.copy()
 
         for space in [x[n] for x in frames.space]:
@@ -111,8 +115,8 @@ def combine_attributes(frames: Frames, prefix: str):
         for rightarm in [x[n] for x in frames.rightarm]:
             frame.paste(rightarm, mask=rightarm)
 
+        # frame.save(f"output/{prefix}_{n:05}.png")
         frame.save(f"output/{prefix}/{prefix}_{n:05}.png")
-        break
 
 
 if __name__ == "__main__":

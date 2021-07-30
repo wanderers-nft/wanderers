@@ -6,7 +6,7 @@
       {
         "category": "celestial",
         "multiple": true,
-        "rarity": 0.5,
+        "rarity": 0.35,
         "files": [
           {
             "file": "galaxy-blue",
@@ -41,7 +41,7 @@
       {
         "category": "planets",
         "multiple": true,
-        "rarity": 0.25,
+        "rarity": 0.15,
         "files": [
           {
             "file": "asteroid-belt",
@@ -88,7 +88,7 @@
       {
         "category": "anomalies",
         "multiple": false,
-        "rarity": 0.25,
+        "rarity": 0.1,
         "files": [
           {
             "file": "monolith",
@@ -107,7 +107,7 @@
       {
         "category": "ships",
         "multiple": false,
-        "rarity": 0.5,
+        "rarity": 0.35,
         "files": [
           {
             "file": "ships-battle",
