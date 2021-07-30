@@ -1,0 +1,1189 @@
+[
+  {
+    "attribute": "space",
+    "multiple": true,
+    "categories": [
+      {
+        "category": "celestial",
+        "multiple": true,
+        "rarity": 0.5,
+        "files": [
+          {
+            "file": "galaxy-blue",
+            "rarity": 0.25
+          },
+          {
+            "file": "galaxy-large",
+            "rarity": 0.25
+          },
+          {
+            "file": "galaxy-purple",
+            "rarity": 0.25
+          },
+          {
+            "file": "stars-blue",
+            "rarity": 0.5
+          },
+          {
+            "file": "stars-green",
+            "rarity": 0.5
+          },
+          {
+            "file": "stars-purple",
+            "rarity": 0.5
+          },
+          {
+            "file": "stars-red",
+            "rarity": 0.5
+          }
+        ]
+      },
+      {
+        "category": "planets",
+        "multiple": true,
+        "rarity": 0.5,
+        "files": [
+          {
+            "file": "asteroid-belt",
+            "rarity": 0.5
+          },
+          {
+            "file": "planet-blue",
+            "rarity": 0.5
+          },
+          {
+            "file": "planet-duo",
+            "rarity": 0.5
+          },
+          {
+            "file": "planet-duo-alt",
+            "rarity": 0.25
+          },
+          {
+            "file": "planet-green",
+            "rarity": 0.5
+          },
+          {
+            "file": "planet-moon",
+            "rarity": 0.5
+          },
+          {
+            "file": "planet-pink",
+            "rarity": 0.5
+          },
+          {
+            "file": "planet-purple",
+            "rarity": 0.5
+          },
+          {
+            "file": "planet-ring",
+            "rarity": 0.1
+          },
+          {
+            "file": "planet-belt",
+            "rarity": 0.1
+          }
+        ]
+      },
+      {
+        "category": "anomalies",
+        "multiple": false,
+        "rarity": 0.25,
+        "files": [
+          {
+            "file": "monolith",
+            "rarity": 0.1
+          },
+          {
+            "file": "rift",
+            "rarity": 0.25
+          },
+          {
+            "file": "wormhole",
+            "rarity": 0.25
+          }
+        ]
+      },
+      {
+        "category": "ships",
+        "multiple": false,
+        "rarity": 0.5,
+        "files": [
+          {
+            "file": "ships-battle",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-battle-alt",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-cargo",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-freighter",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-guardian",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-spacestation",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-triforce",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-ufo",
+            "rarity": 0.25
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "attribute": "panels",
+    "multiple": true,
+    "categories": [
+      {
+        "category": "panel-1",
+        "multiple": false,
+        "rarity": 0.5,
+        "files": [
+          {
+            "file": "panel-1-bricks",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-crack",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-crypto",
+            "rarity": 0.1
+          },
+          {
+            "file": "panel-1-data",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-heartrate",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-hexagon",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-loading",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-lowpoly",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-mosaic",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-noisy",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-particles",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-poplights",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-pulselights",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-radial-points",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-radial-static",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-screen",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-sliders",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-spacecraft",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-spam",
+            "rarity": 0.25
+          },
+          {
+            "file": "panel-1-static",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-tetris",
+            "rarity": 0.25
+          },
+          {
+            "file": "panel-1-toggles",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-transmission",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-tunnel",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-waves",
+            "rarity": 1
+          }
+        ]
+      },
+      {
+        "category": "panel-2",
+        "multiple": false,
+        "rarity": 0.5,
+        "files": [
+          {
+            "file": "panel-2-bricks",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-crack",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-crypto",
+            "rarity": 0.1
+          },
+          {
+            "file": "panel-2-data",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-heartrate",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-hexagon",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-loading",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-lowpoly",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-mosaic",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-noisy",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-particles",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-poplights",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-pulselights",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-radial-points",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-radial-static",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-screen",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-sliders",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-spacecraft",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-spam",
+            "rarity": 0.25
+          },
+          {
+            "file": "panel-2-static",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-tetris",
+            "rarity": 0.25
+          },
+          {
+            "file": "panel-2-toggles",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-transmission",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-tunnel",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-waves",
+            "rarity": 1
+          }
+        ]
+      },
+      {
+        "category": "panel-3",
+        "multiple": false,
+        "rarity": 0.5,
+        "files": [
+          {
+            "file": "panel-3-bricks",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-crack",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-crypto",
+            "rarity": 0.1
+          },
+          {
+            "file": "panel-3-data",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-heartrate",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-hexagon",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-loading",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-lowpoly",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-mosaic",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-noisy",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-particles",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-poplights",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-pulselights",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-radial-points",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-radial-static",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-screen",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-sliders",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-spacecraft",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-spam",
+            "rarity": 0.25
+          },
+          {
+            "file": "panel-3-static",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-tetris",
+            "rarity": 0.25
+          },
+          {
+            "file": "panel-3-toggles",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-transmission",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-tunnel",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-waves",
+            "rarity": 1
+          }
+        ]
+      },
+      {
+        "category": "panel-4",
+        "multiple": false,
+        "rarity": 0.5,
+        "files": [
+          {
+            "file": "panel-4-bricks",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-crack",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-crypto",
+            "rarity": 0.1
+          },
+          {
+            "file": "panel-4-data",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-heartrate",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-hexagon",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-loading",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-lowpoly",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-mosaic",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-noisy",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-particles",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-poplights",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-pulselights",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-radial-points",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-radial-static",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-screen",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-sliders",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-spacecraft",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-spam",
+            "rarity": 0.25
+          },
+          {
+            "file": "panel-4-static",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-tetris",
+            "rarity": 0.25
+          },
+          {
+            "file": "panel-4-toggles",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-transmission",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-tunnel",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-waves",
+            "rarity": 1
+          }
+        ]
+      },
+      {
+        "category": "panel-5",
+        "multiple": false,
+        "rarity": 0.5,
+        "files": [
+          {
+            "file": "panel-5-bricks",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-crack",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-crypto",
+            "rarity": 0.1
+          },
+          {
+            "file": "panel-5-data",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-heartrate",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-hexagon",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-loading",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-lowpoly",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-mosaic",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-noisy",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-particles",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-poplights",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-pulselights",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-radial-points",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-radial-static",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-screen",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-sliders",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-spacecraft",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-spam",
+            "rarity": 0.25
+          },
+          {
+            "file": "panel-5-static",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-tetris",
+            "rarity": 0.25
+          },
+          {
+            "file": "panel-5-toggles",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-transmission",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-tunnel",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-waves",
+            "rarity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "attribute": "window",
+    "multiple": false,
+    "categories": [
+      {
+        "category": "window",
+        "multiple": false,
+        "rarity": 1,
+        "files": [
+          {
+            "file": "window-blue",
+            "rarity": 1
+          },
+          {
+            "file": "window-bolt",
+            "rarity": 1
+          },
+          {
+            "file": "window-bug",
+            "rarity": 0.25
+          },
+          {
+            "file": "window-dice",
+            "rarity": 1
+          },
+          {
+            "file": "window-eth",
+            "rarity": 0.25
+          },
+          {
+            "file": "window-eyes",
+            "rarity": 0.25
+          },
+          {
+            "file": "window-green",
+            "rarity": 1
+          },
+          {
+            "file": "window-pink",
+            "rarity": 1
+          },
+          {
+            "file": "window-purple",
+            "rarity": 1
+          },
+          {
+            "file": "window-sparks",
+            "rarity": 1
+          },
+          {
+            "file": "window-tubes",
+            "rarity": 0.25
+          },
+          {
+            "file": "window-white",
+            "rarity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "attribute": "cockpit",
+    "multiple": false,
+    "categories": [
+      {
+        "category": "cockpit",
+        "multiple": false,
+        "rarity": 1,
+        "files": [
+          {
+            "file": "cockpit-cat",
+            "rarity": 0.1
+          },
+          {
+            "file": "cockpit-chart",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-circles",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-dotface",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-dots",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-falcon",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-glyphs",
+            "rarity": 0.25
+          },
+          {
+            "file": "cockpit-hexagon",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-pink",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-planet",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-radar",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-retro",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-sound",
+            "rarity": 1
+          },
+          {
+            "file": "cockpit-target",
+            "rarity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "attribute": "leftarm",
+    "multiple": false,
+    "categories": [
+      {
+        "category": "leftarm",
+        "multiple": false,
+        "rarity": 1,
+        "files": [
+          {
+            "file": "leftarm-alienjoint",
+            "rarity": 0.1
+          },
+          {
+            "file": "leftarm-antennae",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-banana",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-boba",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-bone",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-booze",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-button-row",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-buttons",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-chicken",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-coffee",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-egg",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-flag",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-flower",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-gearshift",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-gearshift-alien",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-goldfish",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-handcrank",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-hologram",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-hook",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-hotdog",
+            "rarity": 0.1
+          },
+          {
+            "file": "leftarm-jar",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-jar-eyes",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-jar-shrooms",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-knife",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-laser",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-orbit",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-porn",
+            "rarity": 0.1
+          },
+          {
+            "file": "leftarm-robocharge",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-shifter",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-shrooms",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-skull",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-slider",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-swipe",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-syringe",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-tablet",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-takeout",
+            "rarity": 0
+          },
+          {
+            "file": "leftarm-thrust",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-treasure",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-v-steering",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-watch",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-whiskey",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-wine",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-zombie",
+            "rarity": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "attribute": "rightarm",
+    "multiple": false,
+    "categories": [
+      {
+        "category": "rightarm",
+        "multiple": false,
+        "rarity": 1,
+        "files": [
+          {
+            "file": "rightarm-alienjoint",
+            "rarity": 0.1
+          },
+          {
+            "file": "rightarm-antennae",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-banana",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-boba",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-bone",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-booze",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-button-row",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-buttons",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-chicken",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-coffee",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-egg",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-flag",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-flower",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-gearshift",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-gearshift-alien",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-goldfish",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-handcrank",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-hologram",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-hook",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-hotdog",
+            "rarity": 0.1
+          },
+          {
+            "file": "rightarm-jar",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-jar-eyes",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-jar-shrooms",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-knife",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-laser",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-orbit",
+            "rarity": 0
+          },
+          {
+            "file": "rightarm-porn",
+            "rarity": 0.1
+          },
+          {
+            "file": "rightarm-robocharge",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-shifter",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-shrooms",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-skull",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-slider",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-swipe",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-syringe",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-tablet",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-takeout",
+            "rarity": 0
+          },
+          {
+            "file": "rightarm-thrust",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-treasure",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-v-steering",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-watch",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-whiskey",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-wine",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-zombie",
+            "rarity": 1
+          }
+        ]
+      }
+    ]
+  }
+]
