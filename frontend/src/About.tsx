@@ -5,18 +5,19 @@ import {Col, Container, Image, Row} from "react-bootstrap";
 export function About() {
     return (
         <>
-            <Row className="about mb-5">
-                <Col xxl={3} lg={4} md={8} className="m-lg-5 m-md-1">
+            <Row className="about">
+                <Col xxl={3} lg={5} md={8} className="m-lg-5 m-md-1">
                     <p>The Wanderers are an infamous band of intergalactic space voyagers known for their legendary
-                        travels. That was - until their sudden disappearance in August.</p>
+                        travels.</p>
+                    <p>That was... until their sudden disappearance in August 2021.</p>
                 </Col>
-                <Col xxl="auto" lg="auto" md="auto">
+                <Col xxl="auto" lg={6} md="auto">
                     <Image src={video_placeholder} alt="video placeholder" fluid/>
                 </Col>
             </Row>
-            <Row className="about">
+            <Row className="about wormhole">
                 <Col>
-                    <Container>
+                    <Container className="wormholeContainer">
                         <Row>
                             <Col className="mb-5">
                                 <p>Rumor has it that the Wanderers were exploring the connection between wormholes and
