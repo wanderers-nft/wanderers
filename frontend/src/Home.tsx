@@ -3,7 +3,7 @@ import {Col, Container, Row} from "react-bootstrap";
 
 export function Home() {
     return (
-        <Container fluid>
+        <Container fluid="xxl">
             <About/>
             <Row>
                 <Col>

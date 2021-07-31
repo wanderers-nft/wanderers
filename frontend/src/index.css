@@ -6,6 +6,8 @@ body {
 
     background-image: url("assets/dots.svg");
     background-color: #271f1f;
+    background-position: right;
+    background-repeat: repeat-y;
     color: #00fab3
 }
 
