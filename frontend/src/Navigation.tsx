@@ -8,23 +8,23 @@ export function Navigation() {
                 <h1><Link to="/">WANDERERS</Link></h1>
             </div>
             <div>
-                <Link to="/buy"><b>BUY NOW!</b></Link>
+                <Link to="/buy">BUY NOW!</Link>
             </div>
             /
             <div>
-                <p>About</p>
+                <Link to="/#about">About</Link>
             </div>
             /
             <div>
-                <p>Roadmap</p>
+                <Link to="/#roadmap">Roadmap</Link>
             </div>
             /
             <div>
-                <p>Team</p>
+                <Link to="/#team">Team</Link>
             </div>
             /
             <div>
-                <p>Social</p>
+                <Link to="/#social">Social</Link>
             </div>
         </div>
     )
