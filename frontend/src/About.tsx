@@ -1,6 +1,6 @@
 import video_placeholder from "./assets/video_placeholder.png"
 import "./About.css";
-import {Col, Container, Image, Row} from "react-bootstrap";
+import {Button, Col, Container, Image, Row} from "react-bootstrap";
 
 export function About() {
     return (
@@ -44,6 +44,14 @@ export function About() {
                             </Col>
                         </Row>
                     </Container>
+                </Col>
+            </Row>
+            <Row className="about m-lg-5 m-md-1 align-items-center">
+                <Col xxl={3} lg={9} md={10}>
+                    <p><b>Only 10,000 Travelers will ever exist. Reserve yours today!</b></p>
+                </Col>
+                <Col xxl="auto" lg={2} md="auto">
+                    <Button className="btn-minty" size="lg">Buy now</Button>
                 </Col>
             </Row>
         </>
