@@ -6,7 +6,7 @@ export function Navigation() {
     return (
         <Container fluid>
             <Row className="align-items-center">
-                <Col xs={12} md={8}>
+                <Col lg={3} md={4}>
                     <h1><Link to="/">WANDERERS</Link></h1>
                 </Col>
                 <Col>

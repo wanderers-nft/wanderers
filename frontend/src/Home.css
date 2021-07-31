@@ -1,6 +1,4 @@
 .about {
-    /*width: 95%;*/
-    /*display: flex;*/
     align-items: center;
 }
 
@@ -8,8 +6,4 @@
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-size: 250%;
-}
-
-.aboutTextBlock {
-    padding-right: 5%;
 }
