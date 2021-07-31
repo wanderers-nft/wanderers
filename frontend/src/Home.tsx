@@ -1,5 +1,7 @@
 import {About} from "./About";
 import {Col, Container, Row} from "react-bootstrap";
+import {Roadmap} from "./Roadmap";
+import {Team} from "./Team";
 
 export function Home() {
     return (
@@ -7,20 +9,9 @@ export function Home() {
             <section id="about"/>
             <About/>
             <section id="roadmap"/>
-            <Row>
-                <Col>
-                    <h1>
-                        Roadmap
-                    </h1>
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <h1>
-                        Team
-                    </h1>
-                </Col>
-            </Row>
+            <Roadmap/>
+            <section id="team"/>
+            <Team/>
             <Row>
                 <Col>
                     <h1>
