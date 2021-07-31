@@ -1,21 +1,38 @@
 import {About} from "./About";
+import {Col, Container, Row} from "react-bootstrap";
 
 export function Home() {
     return (
-        <div>
+        <Container fluid>
             <About/>
-            <div>
-                <h1>Roadmap</h1>
-            </div>
-            <div>
-                <h1>Giant Buy Now! Button</h1>
-            </div>
-            <div>
-                <h1>Team</h1>
-            </div>
-            <div>
-                <h1>Social media</h1>
-            </div>
-        </div>
+            <Row>
+                <Col>
+                    <h1>
+                        Roadmap
+                    </h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <h1>
+                        Buy now
+                    </h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <h1>
+                        Team
+                    </h1>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <h1>
+                        Social media
+                    </h1>
+                </Col>
+            </Row>
+        </Container>
     )
 }

@@ -1,7 +1,6 @@
 .about {
-    width: 95%;
-    display: flex;
-    justify-content: space-evenly;
+    /*width: 95%;*/
+    /*display: flex;*/
     align-items: center;
 }
 
@@ -12,10 +11,5 @@
 }
 
 .aboutTextBlock {
-    padding-right: 10%;
-    padding-left: 5%;
-}
-
-.aboutImage {
-    height: 500px;
+    padding-right: 5%;
 }
