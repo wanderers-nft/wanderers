@@ -1,5 +1,5 @@
 import video_placeholder from "./assets/video_placeholder.png"
-import "./Home.css";
+import "./About.css";
 import {Col, Image, Row} from "react-bootstrap";
 
 export function About() {
