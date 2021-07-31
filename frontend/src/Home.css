@@ -1,0 +1,21 @@
+.about {
+    width: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 250%;
+}
+
+.aboutTextBlock {
+    padding-right: 10%;
+    padding-left: 5%;
+}
+
+.aboutImage {
+    height: 500px;
+}

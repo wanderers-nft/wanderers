@@ -1,6 +1,7 @@
 import React from 'react';
 import {Navigation} from "./Navigation";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {Home} from "./Home";
 
 function App() {
     return (
@@ -12,7 +13,7 @@ function App() {
                         <p>Todo: Buy now</p>
                     </Route>
                     <Route path="/">
-                        <p>Todo: Home</p>
+                        <Home/>
                     </Route>
 
                 </Switch>
