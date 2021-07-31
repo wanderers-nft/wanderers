@@ -29,8 +29,8 @@ class Manifest:
 def main():
     manifest = Manifest(json.load(open("files_manifest.json")))
 
-    procs = 2
-    n = 50
+    procs = 10
+    n = 2500
     increment = int(n / procs)
     jobs = []
     start = 0
