@@ -1,15 +1,23 @@
 body {
-  margin: 0;
-  font-family: "Roboto Mono", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    font-family: "Roboto Mono", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 
-  background-image: url("dots.svg");
-  background-color: #271f1f;
-  color: #00fab3
+    background-image: url("dots.svg");
+    background-color: #271f1f;
+    color: #00fab3
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a:visited {
+    color: #00fab3;
+}
+
+a {
+    text-decoration: none;
 }

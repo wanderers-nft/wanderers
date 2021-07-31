@@ -1,17 +1,14 @@
 import "./Navigation.css";
+import {Link} from "react-router-dom";
 
 export function Navigation() {
     return (
         <div className="navbar">
             <div>
-                <h1>WANDERERS</h1>
+                <h1><Link to="/">WANDERERS</Link></h1>
             </div>
             <div>
-                <p>Buy</p>
-            </div>
-            /
-            <div>
-                <p>Gallery</p>
+                <Link to="/buy"><b>BUY NOW!</b></Link>
             </div>
             /
             <div>
@@ -27,7 +24,7 @@ export function Navigation() {
             </div>
             /
             <div>
-                <p>Follow</p>
+                <p>Social</p>
             </div>
         </div>
     )
