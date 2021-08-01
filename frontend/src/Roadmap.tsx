@@ -29,8 +29,8 @@ export function Roadmap() {
                         </Col>
                         <Col>
                             <h1>4</h1>
-                            <p>We will create <b>THE HUB</b> - an interactive space station gallery to interact for all
-                                Wanderers.</p>
+                            <p>We will create <b>THE HUB</b> - an interactive space station gallery to interact with for
+                                all Wanderers.</p>
                         </Col>
                     </Row>
                 </Container>
