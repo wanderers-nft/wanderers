@@ -123,7 +123,23 @@
             "rarity": 0.1
           },
           {
-            "file": "wormhole",
+            "file": "wormhole-blue",
+            "rarity": 0.25
+          },
+          {
+            "file": "wormhole-glitch",
+            "rarity": 0.25
+          },
+          {
+            "file": "wormhole-pink",
+            "rarity": 0.25
+          },
+          {
+            "file": "wormhole-purple",
+            "rarity": 0.25
+          },
+          {
+            "file": "wormhole-white",
             "rarity": 0.25
           }
         ]
@@ -982,7 +998,15 @@
             "rarity": 0.25
           },
           {
+            "file": "leftarm-button-big",
+            "rarity": 1
+          },
+          {
             "file": "leftarm-button-row",
+            "rarity": 1
+          },
+          {
+            "file": "leftarm-button-row-slider",
             "rarity": 1
           },
           {
@@ -1000,6 +1024,10 @@
           {
             "file": "leftarm-egg",
             "rarity": 0.25
+          },
+          {
+            "file": "leftarm-eth",
+            "rarity": 0.1
           },
           {
             "file": "leftarm-flag",
@@ -1175,7 +1203,15 @@
             "rarity": 0.25
           },
           {
+            "file": "rightarm-button-big",
+            "rarity": 1
+          },
+          {
             "file": "rightarm-button-row",
+            "rarity": 1
+          },
+          {
+            "file": "rightarm-button-row-slider",
             "rarity": 1
           },
           {
@@ -1193,6 +1229,10 @@
           {
             "file": "rightarm-egg",
             "rarity": 0.25
+          },
+          {
+            "file": "rightarm-eth",
+            "rarity": 0.1
           },
           {
             "file": "rightarm-flag",

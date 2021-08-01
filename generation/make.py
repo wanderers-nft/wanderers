@@ -4,7 +4,6 @@ import os
 import random
 from dataclasses import dataclass
 from shutil import copy
-from time import sleep
 from typing import List, Dict
 
 from PIL import Image
