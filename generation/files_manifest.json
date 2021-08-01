@@ -40,8 +40,8 @@
       },
       {
         "category": "planets",
-        "multiple": true,
-        "rarity": 0.15,
+        "multiple": false,
+        "rarity": 0.5,
         "files": [
           {
             "file": "asteroid-belt",
