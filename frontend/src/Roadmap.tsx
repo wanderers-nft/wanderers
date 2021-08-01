@@ -5,7 +5,20 @@ export function Roadmap() {
     return (
         <Row className="my-5 m-lg-5 m-md-1">
             <Col xl={3}>
-                <h1>Our roadmap.</h1>
+                <Container fluid className="roadmap-banner">
+                    <Row className="mb-3">
+                        <Col>
+                            <h1>Our roadmap.</h1>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <p>*Roadmap items are subject to change as we adapt the project and receive feedback from the
+                                community.
+                            </p>
+                        </Col>
+                    </Row>
+                </Container>
             </Col>
             <Col>
                 <Container className="roadmap-inner">
