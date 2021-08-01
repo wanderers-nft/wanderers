@@ -47,7 +47,7 @@ export function About() {
                 </Col>
             </Row>
             <Row className="about m-lg-5 m-md-1 align-items-center">
-                <Col xxl={3} lg={10} md={12}>
+                <Col xxl={10} lg={10} md={12}>
                     <p><b>Only 10,000 Wanderers will ever exist. Reserve yours today!</b></p>
                 </Col>
                 <Col xxl="auto" lg={2} md="auto">
