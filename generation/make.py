@@ -1,7 +1,9 @@
 import json
 import multiprocessing
 import os
+import random
 from dataclasses import dataclass
+from shutil import copy
 from typing import List, Dict
 
 from generation.get_components import get, get_base
@@ -26,8 +28,20 @@ class Manifest:
         return [x for x in self.manifest if x["attribute"] == attr][0]
 
 
+class AudioManifest:
+    def __init__(self, manifest):
+        self.manifest = manifest
+
+    def get(self):
+        selected = random.choices(
+            population=self.manifest, weights=[x["rarity"] for x in self.manifest], k=1
+        )
+        return selected[0]
+
+
 def main():
     manifest = Manifest(json.load(open("files_manifest.json")))
+    music = AudioManifest(json.load(open("audio_manifest.json")))
 
     procs = 10
     n = 2500
@@ -37,7 +51,9 @@ def main():
     stop = increment
 
     for i in range(0, procs):
-        process = multiprocessing.Process(target=worker, args=(start, stop, manifest))
+        process = multiprocessing.Process(
+            target=worker, args=(start, stop, manifest, music)
+        )
         start = stop
         stop += increment
 
@@ -49,11 +65,18 @@ def main():
     return
 
 
-def worker(start: int, stop: int, manifest: Manifest):
+def worker(start: int, stop: int, manifest: Manifest, music: AudioManifest):
     for n in range(start, stop):
         frames, data = get_attributes(manifest)
-
         os.makedirs(f"output/{str(n)}", exist_ok=True)
+
+        # Get music and copy to metadata
+        selected_music = music.get()
+        data["music"] = [selected_music["file"]]
+
+        # Copy audio file
+        copy(f"source/audio/{selected_music['file']}.mp3", f"output/{str(n)}/music.mp3")
+
         with open(f"output/{str(n)}/metadata.json", "w") as f:
             json.dump(data, f)
 
