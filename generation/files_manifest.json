@@ -142,7 +142,15 @@
             "rarity": 0.25
           },
           {
+            "file": "ships-battle-large",
+            "rarity": 0.25
+          },
+          {
             "file": "ships-cargo",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-fleet",
             "rarity": 0.25
           },
           {
