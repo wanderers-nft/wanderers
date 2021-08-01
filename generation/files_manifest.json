@@ -963,19 +963,19 @@
           },
           {
             "file": "leftarm-banana",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-boba",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-bone",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-booze",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-button-row",
@@ -987,23 +987,23 @@
           },
           {
             "file": "leftarm-chicken",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-coffee",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-egg",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-flag",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-flower",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-gearshift",
@@ -1015,7 +1015,7 @@
           },
           {
             "file": "leftarm-goldfish",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-handcrank",
@@ -1027,7 +1027,7 @@
           },
           {
             "file": "leftarm-hook",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-hotdog",
@@ -1035,35 +1035,35 @@
           },
           {
             "file": "leftarm-jar",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-jar-eyes",
-            "rarity": 1
+            "rarity": 0.1
           },
           {
             "file": "leftarm-jar-shrooms",
-            "rarity": 1
+            "rarity": 0.1
           },
           {
             "file": "leftarm-joint",
-            "rarity": 1
+            "rarity": 0.1
           },
           {
             "file": "leftarm-knife",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-laser",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-orbit",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-pizza",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-porn",
@@ -1079,11 +1079,11 @@
           },
           {
             "file": "leftarm-shrooms",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-skull",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-slider",
@@ -1095,7 +1095,7 @@
           },
           {
             "file": "leftarm-syringe",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-tablet",
@@ -1103,7 +1103,7 @@
           },
           {
             "file": "leftarm-takeout",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-thrust",
@@ -1119,19 +1119,19 @@
           },
           {
             "file": "leftarm-watch",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-whiskey",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-wine",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "leftarm-zombie",
-            "rarity": 1
+            "rarity": 0.25
           }
         ]
       }
@@ -1156,19 +1156,19 @@
           },
           {
             "file": "rightarm-banana",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-boba",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-bone",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-booze",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-button-row",
@@ -1180,23 +1180,23 @@
           },
           {
             "file": "rightarm-chicken",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-coffee",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-egg",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-flag",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-flower",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-gearshift",
@@ -1208,7 +1208,7 @@
           },
           {
             "file": "rightarm-goldfish",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-handcrank",
@@ -1220,7 +1220,7 @@
           },
           {
             "file": "rightarm-hook",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-hotdog",
@@ -1228,35 +1228,35 @@
           },
           {
             "file": "rightarm-jar",
-            "rarity": 1
-          },
-          {
-            "file": "rightarm-joint",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-jar-eyes",
-            "rarity": 1
+            "rarity": 0.1
           },
           {
             "file": "rightarm-jar-shrooms",
-            "rarity": 1
+            "rarity": 0.1
+          },
+          {
+            "file": "rightarm-joint",
+            "rarity": 0.1
           },
           {
             "file": "rightarm-knife",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-laser",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-orbit",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-pizza",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-porn",
@@ -1272,11 +1272,11 @@
           },
           {
             "file": "rightarm-shrooms",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-skull",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-slider",
@@ -1288,7 +1288,7 @@
           },
           {
             "file": "rightarm-syringe",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-tablet",
@@ -1296,7 +1296,7 @@
           },
           {
             "file": "rightarm-takeout",
-            "rarity": 0
+            "rarity": 0.25
           },
           {
             "file": "rightarm-thrust",
@@ -1312,19 +1312,19 @@
           },
           {
             "file": "rightarm-watch",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-whiskey",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-wine",
-            "rarity": 1
+            "rarity": 0.25
           },
           {
             "file": "rightarm-zombie",
-            "rarity": 1
+            "rarity": 0.25
           }
         ]
       }
