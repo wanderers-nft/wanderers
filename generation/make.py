@@ -4,7 +4,10 @@ import os
 import random
 from dataclasses import dataclass
 from shutil import copy
+from time import sleep
 from typing import List, Dict
+
+from PIL import Image
 
 from generation.get_components import get, get_base
 
@@ -43,8 +46,8 @@ def main():
     manifest = Manifest(json.load(open("files_manifest.json")))
     music = AudioManifest(json.load(open("audio_manifest.json")))
 
-    procs = 10
-    n = 2500
+    procs = 20
+    n = 200
     increment = int(n / procs)
     jobs = []
     start = 0
@@ -82,7 +85,6 @@ def worker(start: int, stop: int, manifest: Manifest, music: AudioManifest):
 
         combine_attributes(frames, str(n))
         print(f"Done {n}")
-    pass
 
 
 def get_attributes(manifest: Manifest) -> [Frames, Dict]:
@@ -118,24 +120,30 @@ def combine_attributes(frames: Frames, prefix: str):
         # if n != 65:
         #     continue
 
-        frame = star.copy()
+        frame = Image.open(star)
 
         for space in [x[n] for x in frames.space]:
+            space = Image.open(space)
             frame.paste(space, mask=space)
 
         for panel in [x[n] for x in frames.panels]:
+            panel = Image.open(panel)
             frame.paste(panel, mask=panel)
 
         for window in [x[n] for x in frames.window]:
+            window = Image.open(window)
             frame.paste(window, mask=window)
 
         for cockpit in [x[n] for x in frames.cockpit]:
+            cockpit = Image.open(cockpit)
             frame.paste(cockpit, mask=cockpit)
 
         for leftarm in [x[n] for x in frames.leftarm]:
+            leftarm = Image.open(leftarm)
             frame.paste(leftarm, mask=leftarm)
 
         for rightarm in [x[n] for x in frames.rightarm]:
+            rightarm = Image.open(rightarm)
             frame.paste(rightarm, mask=rightarm)
 
         # frame.save(f"output/{prefix}_{n:05}.png")

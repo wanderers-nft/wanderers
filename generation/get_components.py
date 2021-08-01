@@ -58,11 +58,8 @@ def get_files(attrib: str, category: str, files: str) -> List:
     for i in range(start, end):
         file_name = f"{folder}/{attrib}/{category}/{files}/{files}_{i:05}.png"
 
-        # FIXME: All files should have 131 frames
-        if not os.path.isfile(file_name):
-            file_name = f"{folder}/{attrib}/{category}/{files}/{files}_{0:05}.png"
-
-        images.append(Image.open(file_name))
+        # Give us the file name
+        images.append(file_name)
 
     return images
 
