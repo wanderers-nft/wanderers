@@ -13,6 +13,13 @@
     background-repeat: no-repeat;
 }
 
+.blackhole {
+    background-image: url("assets/blackhole.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .wormholeContainer {
     margin-top: 50px;
 }

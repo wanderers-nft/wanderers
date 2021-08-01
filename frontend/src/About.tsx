@@ -15,7 +15,7 @@ export function About() {
                     <Image src={video_placeholder} alt="video placeholder" fluid/>
                 </Col>
             </Row>
-            <Row className="about wormhole">
+            <Row className="about blackhole">
                 <Col>
                     <Container className="wormholeContainer">
                         <Row>
@@ -47,8 +47,8 @@ export function About() {
                 </Col>
             </Row>
             <Row className="about m-lg-5 m-md-1 align-items-center">
-                <Col xxl={3} lg={9} md={10}>
-                    <p><b>Only 10,000 Travelers will ever exist. Reserve yours today!</b></p>
+                <Col xxl={3} lg={10} md={12}>
+                    <p><b>Only 10,000 Wanderers will ever exist. Reserve yours today!</b></p>
                 </Col>
                 <Col xxl="auto" lg={2} md="auto">
                     <Button className="btn-minty" size="lg">Buy now</Button>
