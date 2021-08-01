@@ -9,7 +9,7 @@ export function About() {
                 <Col xxl={3} lg={5} md={8} className="m-lg-5 m-md-1">
                     <p>The Wanderers are an infamous band of intergalactic space voyagers known for their legendary
                         travels.</p>
-                    <p>That was... until their sudden disappearance in August 2021.</p>
+                    <p>Until their sudden disappearance in August, 2021.</p>
                 </Col>
                 <Col xxl="auto" lg={6} md="auto">
                     <Image src={video_placeholder} alt="video placeholder" fluid/>
@@ -20,26 +20,26 @@ export function About() {
                     <Container className="wormholeContainer">
                         <Row>
                             <Col className="mb-5">
-                                <p>Rumor has it that the Wanderers were exploring the connection between wormholes and
-                                    the multiverse. It
-                                    is believed if you warp into a wormhole, you will become fractionated throughout the
-                                    multi- and
-                                    meta-verse. And now, it is time for you to make the leap. Are you up for the task?
+                                <p>
+                                    Every pilot knows traveling through a wormhole can move you through space and time,
+                                    but the Wanderers also believed they have a connection to the multiverse and the
+                                    metaverse.
                                 </p>
                             </Col>
                         </Row>
                         <Row>
                             <Col>
                                 <p>
-                                    Wanderers is an animated collection of generative NFT collectibles on the
-                                    Ethereum blockchain. Each unique NFT represents a split in the multiverse and a
-                                    parallel
-                                    Wanderer.
+                                    Each Wanderer is a unique looping animated galactic adventure from hundreds of
+                                    possible attributes and rarities - including music. <b>There are over a quadrillion
+                                    possible combinations and only 10,000 Wanderers will ever be created.</b>
                                 </p>
-                            </Col>
-                            <Col>
-                                <p>Each Wanderer has up to 14 different attributes - each with multiple rarities. This
-                                    means there are over 1 trillion possible combinations.
+                                <p>The Wanderers are stored as ERC-721 tokens on the Ethereum blockchain and hosted on
+                                    IPFS.
+                                </p>
+                                <p className="smol">
+                                    *42 Wanderers will be pre-minted by the team for promotional giveaways,
+                                    airdrops, etc.
                                 </p>
                             </Col>
                         </Row>
@@ -48,7 +48,7 @@ export function About() {
             </Row>
             <Row className="about m-lg-5 m-md-1 align-items-center">
                 <Col xxl={10} lg={10} md={12}>
-                    <p><b>Only 10,000 Wanderers will ever exist. Reserve yours today!</b></p>
+                    <p><b>Reserve yours today!</b></p>
                 </Col>
                 <Col xxl="auto" lg={2} md="auto">
                     <Button className="btn-minty" size="lg">Buy now</Button>

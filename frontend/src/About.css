@@ -31,3 +31,7 @@
     padding: 1rem 1.5rem !important;
     font-size: 1.5rem !important;
 }
+
+.smol {
+    font-size: 150% !important;
+}

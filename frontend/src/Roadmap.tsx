@@ -13,7 +13,8 @@ export function Roadmap() {
                     </Row>
                     <Row>
                         <Col>
-                            <p>*Roadmap items are subject to change as we adapt the project and receive feedback from the
+                            <p>*Roadmap items are subject to change as we adapt the project and receive feedback from
+                                the
                                 community.
                             </p>
                         </Col>
@@ -25,25 +26,32 @@ export function Roadmap() {
                     <Row>
                         <Col>
                             <h1>1</h1>
-                            <p>It's time to reveal what the Wanderers look like. We will begin working on animated
-                                avatars so you can see your pilots.</p>
+                            <p>
+                                We reveal the lore behind the Wanderers. We want to build out the world behind the
+                                Wanderers and expand on the universe.
+                            </p>
                         </Col>
                         <Col>
                             <h1>2</h1>
-                            <p>No Wanderer is complete without their own personal spaceship. We will begin working on 3D
-                                generative ships for your Wanderer to use across the metaverse and beyond.</p>
+                            <p>
+                                It’s time to reveal what the Wanderers look like. We will begin working on animated
+                                avatars so you can see your pilots.
+                            </p>
+
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <h1>3</h1>
-                            <p>Physical merch. Let's see your Wanderers printed out onto the real world!</p>
-
+                            <p>
+                                We will create an interactive space hub gallery to interact with and display your Travelers.
+                            </p>
                         </Col>
                         <Col>
                             <h1>4</h1>
-                            <p>We will create <b>THE HUB</b> - an interactive space station gallery to interact with for
-                                all Wanderers.</p>
+                            <p>No Wanderer is complete without their own personal spaceship. We will begin working on 3D
+                                generative ships for your Wanderer to use across the metaverse and beyond.
+                            </p>
                         </Col>
                     </Row>
                 </Container>
