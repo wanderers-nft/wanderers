@@ -4,7 +4,8 @@ import {InjectedConnector} from "@web3-react/injected-connector";
 import {useWeb3React} from "@web3-react/core";
 import {Web3Provider} from "@ethersproject/providers";
 import {AccountInfo} from "./AccountInfo";
-import {Sale} from "./Sale";
+import {SaleInfo} from "./SaleInfo";
+import {Wanderer__factory} from "./typechain";
 
 
 // FIXME: Move to mainnet before launch
@@ -21,6 +22,9 @@ export function Buy() {
     const onClickConnect = async () => {
         await web3.activate(injectedConnector);
     }
+
+    const RINKEBY = Wanderer__factory
+        .connect("0xc4a7dd7cDA89877952741A9eC48483462C602255", web3.library!)
 
     return (
         <Container fluid="xxl">
@@ -45,10 +49,8 @@ export function Buy() {
                 web3.active ?
                     <>
                         <hr/>
-                        <Row>
-                            <Col className="buy-now-banner mt-3">
-                                <Sale/>
-                            </Col>
+                        <Row className="buy-now-banner mt-3">
+                            <SaleInfo address={RINKEBY}/>
                         </Row>
                     </>
                     : <div/>
