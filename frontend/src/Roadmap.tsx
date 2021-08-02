@@ -3,7 +3,7 @@ import "./Roadmap.css"
 
 export function Roadmap() {
     return (
-        <Row className="my-5 m-lg-5 m-md-1 py-5">
+        <Row className="m-lg-5 m-md-1 py-5">
             <Col xl={3}>
                 <Container fluid className="roadmap-banner">
                     <Row className="mb-3">

@@ -7,7 +7,7 @@ import "./Team.css";
 
 export function Team() {
     return (
-        <Row className="my-5 m-lg-5 m-md-1 pt-5">
+        <Row className="my-5 m-lg-5 m-md-1 pb-5">
             <Col xl={3}>
                 <h1>Meet the team.</h1>
             </Col>
