@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 
-contract Traveler is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
+contract Wanderer is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
     using Counters for Counters.Counter;
 
     Counters.Counter private _tokenIdCounter;
@@ -27,7 +27,7 @@ contract Traveler is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
     // Sale price
     uint256 public pricePer;
 
-    constructor(address payable fundsTo_, uint256 maxSupply_, uint256 maxPerTx_, uint256 pricePer_) ERC721("Traveler", "TRAVEL") {
+    constructor(address payable fundsTo_, uint256 maxSupply_, uint256 maxPerTx_, uint256 pricePer_) ERC721("Wanderers", "WANDER") {
         fundsTo = fundsTo_;
         maxSupply = maxSupply_;
         maxPerTx = maxPerTx_;

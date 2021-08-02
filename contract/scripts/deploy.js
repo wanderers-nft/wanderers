@@ -12,11 +12,14 @@ async function main() {
     // If this script is run directly using `node` you may want to call compile
     // manually to make sure everything is compiled
     // await hre.run('compile');
-    const a = "0x3668FfF9416fadE4831D2136cba30e74557E2198";
+    const destinationAddress = "0x3668FfF9416fadE4831D2136cba30e74557E2198";
+    const maxSupply = 1000;
+    const maxPerTx = 16;
+    const pricePer = ethers.utils.parseEther("0.05");
 
     // We get the contract to deploy
-    const Traveler = await hre.ethers.getContractFactory("Traveler");
-    const traveler = await Traveler.deploy(a, 1000, 16, ethers.utils.parseEther("0.05"));
+    const Traveler = await hre.ethers.getContractFactory("Wanderer");
+    const traveler = await Traveler.deploy(destinationAddress, maxSupply, maxPerTx, pricePer);
 
     await traveler.deployed();
 
