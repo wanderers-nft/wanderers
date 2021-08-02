@@ -19,16 +19,12 @@ export function About() {
                 <Col>
                     <Container className="wormholeContainer">
                         <Row>
-                            <Col className="mb-5">
+                            <Col>
                                 <p>
                                     Every pilot knows traveling through a wormhole can move you through space and time,
                                     but the Wanderers also believed they have a connection to the multiverse and the
                                     metaverse.
                                 </p>
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col>
                                 <p>
                                     Each Wanderer is a unique looping animated galactic adventure from hundreds of
                                     possible attributes and rarities - including music. <b>There are over a quadrillion

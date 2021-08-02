@@ -3,7 +3,7 @@ import {Col, Container, Row} from "react-bootstrap";
 
 export function Navigation() {
     return (
-        <Container fluid="xxl">
+        <Container fluid="xxl" className="mb-3">
             <Row className="align-items-center">
                 <Col lg={6} md={4}>
                     <h1><Link to="/">WANDERERS</Link></h1>
