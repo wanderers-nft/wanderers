@@ -12,3 +12,20 @@
     align-items: center;
     justify-content: center;
 }
+
+.sale-quantity {
+    display: flex;
+    justify-content: right;
+}
+
+.quantity input {
+    background-color: #271f1f;
+    color: white;
+    font-size: 100%;
+}
+
+.quantity input:focus {
+    border: 1px solid #00fab3;
+    background-color: #271f1f;
+    color: white;
+}
