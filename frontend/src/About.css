@@ -20,7 +20,7 @@
     background-size: cover;
 }
 
-.wormholeContainer {
+.wormhole-container {
     margin-top: 50px;
 }
 
@@ -36,8 +36,8 @@
     font-size: 125% !important;
 }
 
-.heroBuyNow {
-      display: flex;
+.hero-buy-now {
+    display: flex;
     align-items: center;
     justify-content: center;
 }

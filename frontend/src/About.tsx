@@ -17,19 +17,19 @@ export function About() {
                             </Col>
                         </Row>
                         <Row>
-                            <Col className="heroBuyNow mt-5">
+                            <Col className="hero-buy-now mt-5">
                                 <Button className="btn-minty" size="lg">Mint your Wanderer now!</Button>
                             </Col>
                         </Row>
                     </Container>
                 </Col>
-                <Col xxl="auto" lg={6} md="auto" className="mt-5">
+                <Col xxl="auto" lg={6} md="auto" className="mt-3">
                     <Image src={video_placeholder} alt="video placeholder" fluid/>
                 </Col>
             </Row>
             <Row className="about blackhole">
                 <Col>
-                    <Container className="wormholeContainer">
+                    <Container className="wormhole-container">
                         <Row>
                             <Col>
                                 <p>

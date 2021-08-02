@@ -2,6 +2,7 @@ import React from 'react';
 import {Navigation} from "./Navigation";
 import {BrowserRouter, Route, Switch} from "react-router-dom";
 import {Home} from "./Home";
+import {Buy} from "./Buy";
 
 function App() {
     return (
@@ -10,7 +11,7 @@ function App() {
                 <Navigation/>
                 <Switch>
                     <Route path="/buy">
-                        <p>Todo: Buy now</p>
+                        <Buy/>
                     </Route>
                     <Route path="/">
                         <Home/>
