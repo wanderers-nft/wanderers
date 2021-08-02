@@ -3,3 +3,11 @@
     align-items: center;
     justify-content: center;
 }
+
+.btn-minty {
+    background-color: #00fab3 !important;
+    border-color: #00fab3 !important;
+    color: #271f1f !important;
+    padding: 1rem 1.5rem !important;
+    font-size: 1.5rem !important;
+}
