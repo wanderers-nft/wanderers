@@ -5,3 +5,5 @@ cache
 artifacts
 
 secrets.js
+
+typechain
