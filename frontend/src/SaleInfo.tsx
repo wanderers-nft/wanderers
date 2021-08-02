@@ -3,7 +3,7 @@ import {Web3Provider} from "@ethersproject/providers";
 import {Wanderer} from "./typechain";
 import {useEffect, useState} from "react";
 import {BigNumber} from "ethers";
-import {Col, Container, Form, ProgressBar, Row} from "react-bootstrap";
+import {Button, Col, Container, Form, ProgressBar, Row} from "react-bootstrap";
 import "./SaleInfo.css";
 import {formatEther} from "ethers/lib/utils";
 
@@ -24,6 +24,24 @@ export function SaleInfo(props: SaleProps) {
     const [perTx, setPerTx] = useState<BigNumber | null>(null);
     // Cost per nft
     const [cost, setCost] = useState<BigNumber | null>(null);
+
+
+    const sendMint = async (event: any) => {
+        const form = event.currentTarget;
+        event.preventDefault();
+        event.stopPropagation();
+
+        if (form.checkValidity() !== false) {
+            const quantity = BigNumber.from(form.buyFormQuantity.value);
+            const totalCost = quantity.mul(cost ?? 0);
+            const receipt = await props.address
+                .connect(web3.library?.getSigner()!)
+                .safeMint(web3.account!, quantity, {
+                    value: totalCost
+                });
+            await receipt.wait();
+        }
+    }
 
     // Update supply
     useEffect(() => {
@@ -75,7 +93,6 @@ export function SaleInfo(props: SaleProps) {
             console.log("update sale status", web3.library!.blockNumber);
             try {
                 setSale(await props.address.sale())
-                setSale(true)
             } catch (e) {
                 console.log(e);
             }
@@ -154,7 +171,7 @@ export function SaleInfo(props: SaleProps) {
                                 <h3>Cost: {cost ? parseFloat(formatEther(cost)).toFixed(2) : "..."} ETH each</h3>
                             </Col>
                         </Row>
-                        <Form className="quantity">
+                        <Form className="quantity" noValidate onSubmit={sendMint}>
                             <Row className="mt-4">
                                 <Col className="sale-quantity align-content-center">
                                     <h3>Quantity:</h3>
@@ -162,6 +179,7 @@ export function SaleInfo(props: SaleProps) {
                                 <Col>
                                     <Form.Group controlId="buyFormQuantity">
                                         <Form.Control
+                                            required
                                             type="number"
                                             placeholder="1"
                                             min="1"
@@ -175,6 +193,13 @@ export function SaleInfo(props: SaleProps) {
                             <Row>
                                 <Col className="sale-progress-words">
                                     <p className="mt-2">(max {perTx ? perTx.toNumber() : 10} per tx)</p>
+                                </Col>
+                            </Row>
+                            <Row>
+                                <Col className="sale-progress-words align-items-center my-5">
+                                    <Button type="submit" className="btn-minty">
+                                        MINT
+                                    </Button>
                                 </Col>
                             </Row>
                         </Form>

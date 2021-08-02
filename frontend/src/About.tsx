@@ -1,6 +1,8 @@
-import video_placeholder from "./assets/video_placeholder.png"
+// import video_placeholder from "./assets/video_placeholder.png"
+import hero from "./assets/hero.gif";
 import "./About.css";
 import {Button, Col, Container, Image, Row} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 export function About() {
     return (
@@ -18,13 +20,15 @@ export function About() {
                         </Row>
                         <Row>
                             <Col className="hero-buy-now mt-5">
-                                <Button className="btn-minty" size="lg">Mint your Wanderer now!</Button>
+                                <Link to="/buy">
+                                    <Button className="btn-minty" size="lg">Mint your Wanderer now!</Button>
+                                </Link>
                             </Col>
                         </Row>
                     </Container>
                 </Col>
                 <Col xxl="auto" lg={6} md="auto" className="mt-3">
-                    <Image src={video_placeholder} alt="video placeholder" fluid/>
+                    <Image src={hero} alt="video placeholder" fluid/>
                 </Col>
             </Row>
             <Row className="about blackhole">
@@ -56,10 +60,12 @@ export function About() {
             </Row>
             <Row className="about m-lg-5 m-md-1 align-items-center">
                 <Col xxl={10} lg={10} md={12}>
-                    <p><b>Reserve yours today!</b></p>
+                    <p><b>Get yours today!</b></p>
                 </Col>
                 <Col xxl="auto" lg={2} md="auto">
-                    <Button className="btn-minty" size="lg">Buy now</Button>
+                    <Link to="/buy">
+                        <Button className="btn-minty" size="lg">Get now</Button>
+                    </Link>
                 </Col>
             </Row>
         </>
