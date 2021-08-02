@@ -7,11 +7,23 @@ export function About() {
         <>
             <Row className="about">
                 <Col xxl={3} lg={5} md={8} className="m-lg-5 m-md-1">
-                    <p>The Wanderers are an infamous band of intergalactic space voyagers known for their legendary
-                        travels.</p>
-                    <p>Until their sudden disappearance in August, 2021.</p>
+                    <Container fluid>
+                        <Row>
+                            <Col>
+                                <p>The Wanderers are an infamous band of intergalactic space voyagers known for their
+                                    legendary
+                                    travels.</p>
+                                <p>Until their sudden disappearance in August, 2021.</p>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col className="heroBuyNow mt-5">
+                                <Button className="btn-minty" size="lg">Mint your Wanderer now!</Button>
+                            </Col>
+                        </Row>
+                    </Container>
                 </Col>
-                <Col xxl="auto" lg={6} md="auto">
+                <Col xxl="auto" lg={6} md="auto" className="mt-5">
                     <Image src={video_placeholder} alt="video placeholder" fluid/>
                 </Col>
             </Row>

@@ -35,3 +35,9 @@
 .smol {
     font-size: 125% !important;
 }
+
+.heroBuyNow {
+      display: flex;
+    align-items: center;
+    justify-content: center;
+}
