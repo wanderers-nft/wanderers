@@ -1,2 +1,2 @@
-# traveler-nft
-Traveler NFT
+# wanderers
+Main repo for the Wanderers NFT.
