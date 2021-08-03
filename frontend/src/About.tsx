@@ -8,7 +8,7 @@ export function About() {
     return (
         <>
             <Row className="about">
-                <Col xxl={3} lg={5} md={8} className="m-lg-5 m-md-1">
+                <Col xxl={5} xl={4} lg={12} md={12} className="m-lg-5 m-md-1">
                     <Container fluid>
                         <Row>
                             <Col>
@@ -27,7 +27,7 @@ export function About() {
                         </Row>
                     </Container>
                 </Col>
-                <Col xxl="auto" lg={6} md="auto" className="mt-3">
+                <Col xxl={6} xl={6} lg={12} md={12} className="mt-3 hero">
                     <Image src={hero} alt="video placeholder" fluid/>
                 </Col>
             </Row>
