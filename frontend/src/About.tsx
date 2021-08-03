@@ -6,7 +6,7 @@ import {Link} from "react-router-dom";
 
 export function About() {
     return (
-        <>
+        <Container fluid className="blackhole">
             <Row className="about">
                 <Col xxl={5} xl={4} lg={12} md={12} className="m-lg-5 m-md-1">
                     <Container fluid>
@@ -31,7 +31,7 @@ export function About() {
                     <Image src={hero} alt="video placeholder" fluid/>
                 </Col>
             </Row>
-            <Row className="about blackhole">
+            <Row className="about-secondary">
                 <Col>
                     <Container className="wormhole-container">
                         <Row>
@@ -44,10 +44,10 @@ export function About() {
                                 <p>
                                     Each Wanderer is a unique looping animated galactic adventure from hundreds of
                                     possible attributes and rarities - including music. <b>There are over a quadrillion
-                                    possible combinations and only 10,000 Wanderers will ever be created.</b>
+                                    possible combinations.</b>
                                 </p>
                                 <p>The Wanderers are stored as ERC-721 tokens on the Ethereum blockchain and hosted on
-                                    IPFS.
+                                    IPFS. <b>There are only 8,888 Wanderers in existence.</b>
                                 </p>
                                 <p className="smol">
                                     *42 Wanderers will be pre-minted by the team for promotional giveaways,
@@ -60,14 +60,14 @@ export function About() {
             </Row>
             <Row className="about m-lg-5 m-md-1 align-items-center">
                 <Col xxl={10} lg={10} md={12}>
-                    <p><b>Get yours today!</b></p>
+                    <p><b>Buy a Wanderer / 0.08 ETH</b></p>
                 </Col>
-                <Col xxl="auto" lg={2} md="auto">
+                <Col xxl="auto" lg={2} md="auto" className="hero-buy-now">
                     <Link to="/buy">
-                        <Button className="btn-minty" size="lg">Get now</Button>
+                        <Button className="btn-minty" size="lg">Buy now</Button>
                     </Link>
                 </Col>
             </Row>
-        </>
+        </Container>
     )
 }

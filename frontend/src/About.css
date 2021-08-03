@@ -7,15 +7,19 @@
     font-size: 200%;
 }
 
-.wormhole {
-    background-image: url("assets/wormhole.png");
-    background-position: left;
-    background-repeat: no-repeat;
+.about-secondary {
+
+}
+
+.about-secondary p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 190%;
 }
 
 .blackhole {
     background-image: url("assets/blackhole.png");
-    background-position: left;
+    background-position: 100% bottom;
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -6,7 +6,7 @@ import {Buy} from "./Buy";
 
 function App() {
     return (
-        <div className="App">
+        <div>
             <BrowserRouter>
                 <Navigation/>
                 <Switch>

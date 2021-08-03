@@ -14,22 +14,22 @@ export function Team() {
             <Col>
                 <Container>
                     <Row>
-                        <Col xl={3} lg={3} md={3} sm={4}>
+                        <Col xl={3} lg={3} md={3} sm={4} xs={5} className="team-col">
                             <Image src={team_nick} className="team"/>
                             <h3>Nick</h3>
                             <p>Animation/Design</p>
                         </Col>
-                        <Col xl={3} lg={3} md={3} sm={4}>
+                        <Col xl={3} lg={3} md={3} sm={4} xs={5} className="team-col">
                             <Image src={team_emerald} className="team"/>
                             <h3>Emerald</h3>
                             <p>Programmer</p>
                         </Col>
-                        <Col xl={3} lg={3} md={3} sm={4}>
+                        <Col xl={3} lg={3} md={3} sm={4} xs={5} className="team-col">
                             <Image src={team_wyatt} className="team"/>
                             <h3>Wyatt</h3>
                             <p>Illustration</p>
                         </Col>
-                        <Col xl={3} lg={3} md={3} sm={4}>
+                        <Col xl={3} lg={3} md={3} sm={4} xs={5} className="team-col">
                             <Image src={team_landon} className="team"/>
                             <h3>Landon</h3>
                             <p>Sound Design</p>

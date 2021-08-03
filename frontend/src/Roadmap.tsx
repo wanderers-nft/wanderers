@@ -27,30 +27,35 @@ export function Roadmap() {
                         <Col>
                             <h1>1</h1>
                             <p>
-                                We reveal the lore behind the Wanderers. We want to build out the world behind the
-                                Wanderers and expand on the universe.
+                                The Hub gets revealed. This is a members-only area where we will reveal new content for
+                                Wanderers.
                             </p>
                         </Col>
+                    </Row>
+                    <Row>
                         <Col>
                             <h1>2</h1>
                             <p>
-                                It’s time to reveal what the Wanderers look like. We will begin working on animated
-                                avatars so you can see your pilots.
+                                We reveal the lore behind the Wanderers. Where they come from and what it all means for
+                                your unique Wanderer.
                             </p>
-
                         </Col>
                     </Row>
                     <Row>
                         <Col>
                             <h1>3</h1>
                             <p>
-                                We will create an interactive space hub gallery to interact with and display your Travelers.
+                                It’s time to reveal what the Wanderers look like - we will create animated avatars so
+                                you can see your pilots.
                             </p>
                         </Col>
+                    </Row>
+                    <Row>
                         <Col>
                             <h1>4</h1>
-                            <p>No Wanderer is complete without their own personal spaceship. We will begin working on 3D
-                                generative ships for your Wanderer to use across the metaverse and beyond.
+                            <p>
+                                No Wanderer is complete without their own personal spaceship. We will begin working on
+                                3D generative ships for your Wanderer to use across the metaverse and beyond.
                             </p>
                         </Col>
                     </Row>
