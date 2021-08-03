@@ -1,13 +1,13 @@
 import React from 'react';
 import {Navigation} from "./Navigation";
-import {BrowserRouter, Route, Switch} from "react-router-dom";
+import {HashRouter, Route, Switch} from "react-router-dom";
 import {Home} from "./Home";
 import {Buy} from "./Buy";
 
 function App() {
     return (
         <div>
-            <BrowserRouter>
+            <HashRouter>
                 <Navigation/>
                 <Switch>
                     <Route path="/buy">
@@ -18,7 +18,7 @@ function App() {
                     </Route>
 
                 </Switch>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 }
