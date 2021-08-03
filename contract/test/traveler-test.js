@@ -7,7 +7,7 @@ describe("Traveler", function () {
     beforeEach(async function () {
         accounts = await ethers.getSigners();
 
-        const Traveler = await ethers.getContractFactory("Traveler");
+        const Traveler = await ethers.getContractFactory("Wanderer");
         traveler = await Traveler.connect(accounts[0]).deploy(
             accounts[1].address,
             1000,

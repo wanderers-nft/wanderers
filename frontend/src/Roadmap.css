@@ -1,0 +1,19 @@
+.roadmap-inner {
+}
+
+.roadmap-inner p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 150%;
+}
+
+.roadmap-banner {
+    /* wow what a hack lol */
+    padding-left: 0 !important;
+}
+
+.roadmap-banner p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 120%;
+}

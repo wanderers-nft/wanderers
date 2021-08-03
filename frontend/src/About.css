@@ -1,0 +1,43 @@
+.about {
+}
+
+.about p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-size: 200%;
+}
+
+.wormhole {
+    background-image: url("assets/wormhole.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.blackhole {
+    background-image: url("assets/blackhole.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wormhole-container {
+    margin-top: 50px;
+}
+
+.btn-minty {
+    background-color: #00fab3 !important;
+    border-color: #00fab3 !important;
+    color: #271f1f !important;
+    padding: 1rem 1.5rem !important;
+    font-size: 1.5rem !important;
+}
+
+.smol {
+    font-size: 125% !important;
+}
+
+.hero-buy-now {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

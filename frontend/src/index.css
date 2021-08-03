@@ -1,0 +1,25 @@
+body {
+    margin: 1%;
+    font-family: "Roboto Mono", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    background-image: url("assets/dots.svg");
+    background-color: #271f1f;
+    background-position: right;
+    background-repeat: repeat-y;
+    color: #00fab3
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+    color: #00fab3 !important;
+}
+
+a {
+    text-decoration: none;
+}

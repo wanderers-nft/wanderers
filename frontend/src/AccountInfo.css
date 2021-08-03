@@ -1,0 +1,15 @@
+.account-info {
+
+}
+
+.account-info p {
+    font-size: 125%;
+}
+
+.btn-minty-smaller {
+    background-color: #00fab3 !important;
+    border-color: #00fab3 !important;
+    color: #271f1f !important;
+    padding: 0.5rem 1rem !important;
+    font-size: 1.25rem !important;
+}

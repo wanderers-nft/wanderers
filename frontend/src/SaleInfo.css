@@ -1,0 +1,31 @@
+.progress-bar-minty {
+    background-color: #2a00d8 !important;
+    height: 30px !important;
+}
+
+.progress-bar-minty div {
+    background-color: #00fab3 !important;
+}
+
+.sale-progress-words {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sale-quantity {
+    display: flex;
+    justify-content: right;
+}
+
+.quantity input {
+    background-color: #271f1f;
+    color: white;
+    font-size: 100%;
+}
+
+.quantity input:focus {
+    border: 1px solid #00fab3 !important;
+    background-color: #271f1f;
+    color: white;
+}

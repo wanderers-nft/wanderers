@@ -12,18 +12,18 @@ async function main() {
     // If this script is run directly using `node` you may want to call compile
     // manually to make sure everything is compiled
     // await hre.run('compile');
-    const destinationAddress = "0x3668FfF9416fadE4831D2136cba30e74557E2198";
-    const maxSupply = 1000;
-    const maxPerTx = 16;
-    const pricePer = ethers.utils.parseEther("0.05");
 
-    // We get the contract to deploy
-    const Traveler = await hre.ethers.getContractFactory("Wanderer");
-    const traveler = await Traveler.deploy(destinationAddress, maxSupply, maxPerTx, pricePer);
+    // RINKEBY
+    const contractLocation = "0xc4a7dd7cDA89877952741A9eC48483462C602255";
+    const transferOwnershipTo = "0x3668FfF9416fadE4831D2136cba30e74557E2198";
 
-    await traveler.deployed();
+    // We get the deployed contract
+    const traveler = await hre.ethers.getContractAt("Wanderer", contractLocation);
 
-    console.log("Greeter deployed to:", traveler.address);
+    const tx = await traveler.transferOwnership(transferOwnershipTo);
+    const receipt = await tx.wait();
+
+    console.log("Greeter deployed to:", receipt.transactionHash);
 }
 
 // We recommend this pattern to be able to use async/await everywhere
