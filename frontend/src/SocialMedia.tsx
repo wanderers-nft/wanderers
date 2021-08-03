@@ -6,7 +6,7 @@ import social_twitter from "./assets/social-twitter.png";
 
 export function SocialMedia() {
     return (
-        <Row className="my-5 m-lg-5 m-md-1 pt-5">
+        <Row className="my-5 m-lg-5 m-md-1 pt-3">
             <Col xl={8}>
                 <h1>Wander with us.</h1>
             </Col>

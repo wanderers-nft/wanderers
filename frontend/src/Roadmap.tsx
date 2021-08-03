@@ -3,7 +3,7 @@ import "./Roadmap.css"
 
 export function Roadmap() {
     return (
-        <Row className="m-lg-5 m-md-1 py-5">
+        <Row className="m-lg-5 m-md-1 pt-3 pb-1">
             <Col xl={3}>
                 <Container fluid className="roadmap-banner">
                     <Row className="mb-3">
@@ -27,8 +27,8 @@ export function Roadmap() {
                         <Col>
                             <h1>1</h1>
                             <p>
-                                The Hub gets revealed. This is a members-only area where we will reveal new content for
-                                Wanderers.
+                                The Hub gets revealed. This is an interactive members-only area where we will reveal new
+                                content for Wanderers.
                             </p>
                         </Col>
                     </Row>
@@ -36,8 +36,8 @@ export function Roadmap() {
                         <Col>
                             <h1>2</h1>
                             <p>
-                                We reveal the lore behind the Wanderers. Where they come from and what it all means for
-                                your unique Wanderer.
+                                We drop Phase 1 of the lore behind the Wanderers. Where they come from and what it all
+                                means for your unique Wanderer.
                             </p>
                         </Col>
                     </Row>
@@ -54,8 +54,25 @@ export function Roadmap() {
                         <Col>
                             <h1>4</h1>
                             <p>
+                                Phase 2 of the Wanderers lore is revealed.
+                            </p>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <h1>5</h1>
+                            <p>
                                 No Wanderer is complete without their own personal spaceship. We will begin working on
                                 3D generative ships for your Wanderer to use across the metaverse and beyond.
+                            </p>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <h1>6</h1>
+                            <p>
+                                We want to continue building The Hub into an interactive space station where you can
+                                display your NFTs and interact with other Wanderers.
                             </p>
                         </Col>
                     </Row>

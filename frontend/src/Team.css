@@ -6,3 +6,11 @@
 .team-col {
     text-align: center;
 }
+
+.team-clickable {
+
+}
+
+.team-clickable {
+    text-decoration: underline !important;
+}

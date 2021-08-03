@@ -8,14 +8,17 @@ export function About() {
     return (
         <Container fluid className="blackhole">
             <Row className="about">
-                <Col xxl={5} xl={4} lg={12} md={12} className="m-lg-5 m-md-1">
+                <Col xxl={6} xl={6} lg={12} md={12} className="m-lg-4 m-md-1">
                     <Container fluid>
                         <Row>
                             <Col>
-                                <p>The Wanderers are an infamous band of intergalactic space voyagers known for their
-                                    legendary
-                                    travels.</p>
-                                <p>Until their sudden disappearance in August, 2021.</p>
+                                <p><b>The Wanderers</b> are an infamous band of intergalactic space voyagers known for their
+                                    legendary travels.
+                                </p>
+                                <p>
+                                    Until their <b>mysterious disappearance</b> - and <b>last known transmission</b> [8888] - on
+                                    August 14, 2021.
+                                </p>
                             </Col>
                         </Row>
                         <Row>
@@ -27,21 +30,16 @@ export function About() {
                         </Row>
                     </Container>
                 </Col>
-                <Col xxl={6} xl={6} lg={12} md={12} className="mt-3 hero">
+                <Col xxl={5} xl={5} lg={12} md={12} className="mt-3 hero">
                     <Image src={hero} alt="video placeholder" fluid/>
                 </Col>
             </Row>
-            <Row className="about-secondary">
+            <Row className="about-secondary mt-2">
                 <Col>
                     <Container className="wormhole-container">
                         <Row>
                             <Col>
-                                <p>
-                                    Every pilot knows traveling through a wormhole can move you through space and time,
-                                    but the Wanderers also believed they have a connection to the multiverse and the
-                                    metaverse.
-                                </p>
-                                <p>
+                                <p className="pb-1">
                                     Each Wanderer is a unique looping animated galactic adventure from hundreds of
                                     possible attributes and rarities - including music. <b>There are over a quadrillion
                                     possible combinations.</b>

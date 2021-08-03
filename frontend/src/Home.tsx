@@ -9,10 +9,13 @@ export function Home() {
         <Container fluid="xxl">
             <section id="about"/>
             <About/>
+            <hr/>
             <section id="roadmap"/>
             <Roadmap/>
+            <hr/>
             <section id="team"/>
             <Team/>
+            <hr/>
             <section id="social"/>
             <SocialMedia/>
         </Container>
