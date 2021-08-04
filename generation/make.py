@@ -46,7 +46,7 @@ def main():
     music = AudioManifest(json.load(open("audio_manifest.json")))
 
     procs = 20
-    n = 200
+    n = 1000
     increment = int(n / procs)
     jobs = []
     start = 0

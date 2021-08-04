@@ -60,6 +60,10 @@
             "rarity": 0.25
           },
           {
+            "file": "planet-green",
+            "rarity": 0.5
+          },
+          {
             "file": "planet-large-blue-bottom",
             "rarity": 0.25
           },
@@ -68,8 +72,8 @@
             "rarity": 0.25
           },
           {
-            "file": "planet-green",
-            "rarity": 0.5
+            "file": "planet-large-ring",
+            "rarity": 0.25
           },
           {
             "file": "planet-large-blue",
@@ -109,6 +113,10 @@
           },
           {
             "file": "planet-trio",
+            "rarity": 0.1
+          },
+          {
+            "file": "planet-trio-large",
             "rarity": 0.1
           }
         ]
@@ -170,7 +178,23 @@
             "rarity": 0.25
           },
           {
+            "file": "ships-flyby",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-flyby-dogfight",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-flyby-trio",
+            "rarity": 0.25
+          },
+          {
             "file": "ships-freighter",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-freighter-battle",
             "rarity": 0.25
           },
           {
@@ -207,6 +231,10 @@
             "rarity": 1
           },
           {
+            "file": "panel-1-code",
+            "rarity": 1
+          },
+          {
             "file": "panel-1-crack",
             "rarity": 1
           },
@@ -216,6 +244,10 @@
           },
           {
             "file": "panel-1-data",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-dna",
             "rarity": 1
           },
           {
@@ -231,11 +263,19 @@
             "rarity": 1
           },
           {
+            "file": "panel-1-jpeg",
+            "rarity": 1
+          },
+          {
             "file": "panel-1-loading",
             "rarity": 1
           },
           {
             "file": "panel-1-lowpoly",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-mercury",
             "rarity": 1
           },
           {
@@ -291,6 +331,10 @@
             "rarity": 0.25
           },
           {
+            "file": "panel-1-spiral",
+            "rarity": 1
+          },
+          {
             "file": "panel-1-static",
             "rarity": 1
           },
@@ -307,11 +351,19 @@
             "rarity": 1
           },
           {
+            "file": "panel-1-trim",
+            "rarity": 1
+          },
+          {
             "file": "panel-1-tunnel",
             "rarity": 1
           },
           {
             "file": "panel-1-tunnel-alt",
+            "rarity": 1
+          },
+          {
+            "file": "panel-1-water",
             "rarity": 1
           },
           {
@@ -334,6 +386,10 @@
             "rarity": 1
           },
           {
+            "file": "panel-2-code",
+            "rarity": 1
+          },
+          {
             "file": "panel-2-crack",
             "rarity": 1
           },
@@ -343,6 +399,10 @@
           },
           {
             "file": "panel-2-data",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-dna",
             "rarity": 1
           },
           {
@@ -358,11 +418,19 @@
             "rarity": 1
           },
           {
+            "file": "panel-2-jpeg",
+            "rarity": 1
+          },
+          {
             "file": "panel-2-loading",
             "rarity": 1
           },
           {
             "file": "panel-2-lowpoly",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-mercury",
             "rarity": 1
           },
           {
@@ -418,6 +486,10 @@
             "rarity": 0.25
           },
           {
+            "file": "panel-2-spiral",
+            "rarity": 1
+          },
+          {
             "file": "panel-2-static",
             "rarity": 1
           },
@@ -434,11 +506,19 @@
             "rarity": 1
           },
           {
+            "file": "panel-2-trim",
+            "rarity": 1
+          },
+          {
             "file": "panel-2-tunnel",
             "rarity": 1
           },
           {
             "file": "panel-2-tunnel-alt",
+            "rarity": 1
+          },
+          {
+            "file": "panel-2-water",
             "rarity": 1
           },
           {
@@ -461,6 +541,10 @@
             "rarity": 1
           },
           {
+            "file": "panel-3-code",
+            "rarity": 1
+          },
+          {
             "file": "panel-3-crack",
             "rarity": 1
           },
@@ -470,6 +554,10 @@
           },
           {
             "file": "panel-3-data",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-dna",
             "rarity": 1
           },
           {
@@ -485,11 +573,19 @@
             "rarity": 1
           },
           {
+            "file": "panel-3-jpeg",
+            "rarity": 1
+          },
+          {
             "file": "panel-3-loading",
             "rarity": 1
           },
           {
             "file": "panel-3-lowpoly",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-mercury",
             "rarity": 1
           },
           {
@@ -545,6 +641,10 @@
             "rarity": 0.25
           },
           {
+            "file": "panel-3-spiral",
+            "rarity": 1
+          },
+          {
             "file": "panel-3-static",
             "rarity": 1
           },
@@ -561,11 +661,19 @@
             "rarity": 1
           },
           {
+            "file": "panel-3-trim",
+            "rarity": 1
+          },
+          {
             "file": "panel-3-tunnel",
             "rarity": 1
           },
           {
             "file": "panel-3-tunnel-alt",
+            "rarity": 1
+          },
+          {
+            "file": "panel-3-water",
             "rarity": 1
           },
           {
@@ -588,6 +696,10 @@
             "rarity": 1
           },
           {
+            "file": "panel-4-code",
+            "rarity": 1
+          },
+          {
             "file": "panel-4-crack",
             "rarity": 1
           },
@@ -597,6 +709,10 @@
           },
           {
             "file": "panel-4-data",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-dna",
             "rarity": 1
           },
           {
@@ -612,11 +728,19 @@
             "rarity": 1
           },
           {
+            "file": "panel-4-jpeg",
+            "rarity": 1
+          },
+          {
             "file": "panel-4-loading",
             "rarity": 1
           },
           {
             "file": "panel-4-lowpoly",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-mercury",
             "rarity": 1
           },
           {
@@ -672,6 +796,10 @@
             "rarity": 0.25
           },
           {
+            "file": "panel-4-spiral",
+            "rarity": 1
+          },
+          {
             "file": "panel-4-static",
             "rarity": 1
           },
@@ -688,11 +816,19 @@
             "rarity": 1
           },
           {
+            "file": "panel-4-trim",
+            "rarity": 1
+          },
+          {
             "file": "panel-4-tunnel",
             "rarity": 1
           },
           {
             "file": "panel-4-tunnel-alt",
+            "rarity": 1
+          },
+          {
+            "file": "panel-4-water",
             "rarity": 1
           },
           {
@@ -715,6 +851,10 @@
             "rarity": 1
           },
           {
+            "file": "panel-5-code",
+            "rarity": 1
+          },
+          {
             "file": "panel-5-crack",
             "rarity": 1
           },
@@ -724,6 +864,10 @@
           },
           {
             "file": "panel-5-data",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-dna",
             "rarity": 1
           },
           {
@@ -739,11 +883,19 @@
             "rarity": 1
           },
           {
+            "file": "panel-5-jpeg",
+            "rarity": 1
+          },
+          {
             "file": "panel-5-loading",
             "rarity": 1
           },
           {
             "file": "panel-5-lowpoly",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-mercury",
             "rarity": 1
           },
           {
@@ -799,6 +951,10 @@
             "rarity": 0.25
           },
           {
+            "file": "panel-5-spiral",
+            "rarity": 1
+          },
+          {
             "file": "panel-5-static",
             "rarity": 1
           },
@@ -815,11 +971,19 @@
             "rarity": 1
           },
           {
+            "file": "panel-5-trim",
+            "rarity": 1
+          },
+          {
             "file": "panel-5-tunnel",
             "rarity": 1
           },
           {
             "file": "panel-5-tunnel-alt",
+            "rarity": 1
+          },
+          {
+            "file": "panel-5-water",
             "rarity": 1
           },
           {
@@ -881,6 +1045,10 @@
           },
           {
             "file": "window-sparks",
+            "rarity": 1
+          },
+          {
+            "file": "window-screens",
             "rarity": 1
           },
           {
@@ -973,6 +1141,10 @@
         "multiple": false,
         "rarity": 1,
         "files": [
+          {
+            "file": "leftarm-8ball",
+            "rarity": 0.25
+          },
           {
             "file": "leftarm-alienjoint",
             "rarity": 0.1
@@ -1178,6 +1350,10 @@
         "multiple": false,
         "rarity": 1,
         "files": [
+          {
+            "file": "rightarm-8ball",
+            "rarity": 0.25
+          },
           {
             "file": "rightarm-alienjoint",
             "rarity": 0.1
