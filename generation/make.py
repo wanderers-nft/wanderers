@@ -3,6 +3,7 @@ import multiprocessing
 import os
 import random
 from dataclasses import dataclass
+from pprint import pprint
 from shutil import copy
 from typing import List, Dict
 
@@ -46,7 +47,7 @@ def main():
     music = AudioManifest(json.load(open("audio_manifest.json")))
 
     procs = 20
-    n = 1000
+    n = 60
     increment = int(n / procs)
     jobs = []
     start = 0
@@ -77,7 +78,10 @@ def worker(start: int, stop: int, manifest: Manifest, music: AudioManifest):
         data["music"] = [selected_music["file"]]
 
         # Copy audio file
-        copy(f"source/audio/{selected_music['file']}.mp3", f"output/raw/{str(n)}/music.mp3")
+        copy(
+            f"source/audio/{selected_music['file']}.mp3",
+            f"output/raw/{str(n)}/music.mp3",
+        )
 
         # Write metadata
         os.makedirs(f"output/metadata", exist_ok=True)

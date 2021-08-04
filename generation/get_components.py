@@ -1,5 +1,6 @@
 import os.path
 import random
+from pprint import pprint
 from typing import List, Dict
 
 from PIL import Image
@@ -74,7 +75,13 @@ def get(attrib) -> [List, Dict]:
         for c in files_list
         for f in c[1]
     ]
-    data = {attrib["attribute"]: [f["file"] for c in files_list for f in c[1]]}
+
+    data = {}
+    for x in files_list:
+        name = x[0]
+        values = [f["file"] for f in x[1]]
+        data[name] = values
+
     return fs, data
     # Read files
 
