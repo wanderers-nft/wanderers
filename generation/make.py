@@ -70,16 +70,18 @@ def main():
 def worker(start: int, stop: int, manifest: Manifest, music: AudioManifest):
     for n in range(start, stop):
         frames, data = get_attributes(manifest)
-        os.makedirs(f"output/{str(n)}", exist_ok=True)
+        os.makedirs(f"output/raw/{str(n)}", exist_ok=True)
 
         # Get music and copy to metadata
         selected_music = music.get()
         data["music"] = [selected_music["file"]]
 
         # Copy audio file
-        copy(f"source/audio/{selected_music['file']}.mp3", f"output/{str(n)}/music.mp3")
+        copy(f"source/audio/{selected_music['file']}.mp3", f"output/raw/{str(n)}/music.mp3")
 
-        with open(f"output/{str(n)}/metadata.json", "w") as f:
+        # Write metadata
+        os.makedirs(f"output/metadata", exist_ok=True)
+        with open(f"output/metadata/{str(n)}.json", "w") as f:
             json.dump(data, f)
 
         combine_attributes(frames, str(n))
@@ -146,7 +148,7 @@ def combine_attributes(frames: Frames, prefix: str):
             frame.paste(rightarm, mask=rightarm)
 
         # frame.save(f"output/{prefix}_{n:05}.png")
-        frame.save(f"output/{prefix}/{prefix}_{n:05}.png")
+        frame.save(f"output/raw/{prefix}/{prefix}_{n:05}.png")
 
 
 if __name__ == "__main__":
