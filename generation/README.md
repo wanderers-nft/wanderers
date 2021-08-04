@@ -5,3 +5,4 @@
 3. Upload video files onto IPFS
 4. Use the resulting CID to generate metadata with `metadata.py`
 5. Upload metadata onto IPFS
+6. Deploy contract with metadata CID

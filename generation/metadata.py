@@ -1,7 +1,7 @@
 import json
 import os
 
-cid = "QmaRUwmH7YD4gsEj5mJADz8WjVph7eBJUT6PL71zokyDm2"
+cid = "QmTXVyW3KT2fia9J2RCtFKJnzVoBK6MqahmqWa2E3y2hdR"
 
 
 def main():
@@ -18,7 +18,11 @@ def main():
 
 
 def transform_json(data, names, file_name):
-    metadata = {"animation_url": f"ipfs://{cid}/{file_name}.mp4", "attributes": []}
+    metadata = {
+        "animation_url": f"ipfs://{cid}/{file_name}.mp4",
+        "image": f"ipfs://{cid}/{file_name}.mp4",
+        "attributes": []
+    }
     for x in data.items():
         # For each sub-item in attribute
         for y in x[1]:

@@ -24,7 +24,7 @@ export function Buy() {
     }
 
     const RINKEBY = Wanderer__factory
-        .connect("0x5430A7Fa3304211b1210A2F84eB319B2E278b76D", web3.library!)
+        .connect("0xD3955A8b3bD5E17aE97d9a19Cba661541b11c3b2", web3.library!)
 
     return (
         <Container fluid="xxl">
