@@ -1,7 +1,7 @@
 import json
 import os
 
-cid = "REPLACEME"
+cid = "QmaRUwmH7YD4gsEj5mJADz8WjVph7eBJUT6PL71zokyDm2"
 
 
 def main():
@@ -13,7 +13,7 @@ def main():
             filename.name.split('.')[0]
         )
 
-        with open(filename.path, "w") as o:
+        with open(filename.path.split('.')[0], "w") as o:
             json.dump(transformed, o)
 
 
