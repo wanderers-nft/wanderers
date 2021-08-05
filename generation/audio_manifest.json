@@ -1,18 +1,34 @@
 [
   {
-    "file": "endless_space",
+    "file": "cosmic-drifter",
     "rarity": 1
   },
   {
-    "file": "the_cruiser",
+    "file": "lone-planeteer",
     "rarity": 1
   },
   {
-    "file": "the_ponderer",
+    "file": "space-ender",
     "rarity": 1
   },
   {
-    "file": "the_wanderer",
+    "file": "star-ranger",
+    "rarity": 1
+  },
+  {
+    "file": "the-cruiser",
+    "rarity": 1
+  },
+  {
+    "file": "the-ponderer",
+    "rarity": 1
+  },
+  {
+    "file": "the-wanderer",
+    "rarity": 1
+  },
+  {
+    "file": "the-wayfarer",
     "rarity": 1
   }
 ]

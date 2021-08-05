@@ -13,7 +13,11 @@
             "rarity": 0.25
           },
           {
-            "file": "galaxy-large",
+            "file": "galaxy-large-green",
+            "rarity": 0.25
+          },
+          {
+            "file": "galaxy-large-purple",
             "rarity": 0.25
           },
           {
@@ -48,6 +52,14 @@
             "rarity": 0.5
           },
           {
+            "file": "asteroid-belt-alt",
+            "rarity": 0.5
+          },
+          {
+            "file": "planet-anger-orb",
+            "rarity": 0.1
+          },
+          {
             "file": "planet-blue",
             "rarity": 0.5
           },
@@ -68,6 +80,10 @@
             "rarity": 0.25
           },
           {
+            "file": "planet-large-purple-bottom",
+            "rarity": 0.25
+          },
+          {
             "file": "planet-large-ring",
             "rarity": 0.25
           },
@@ -77,10 +93,6 @@
           },
           {
             "file": "planet-pink-small",
-            "rarity": 0.5
-          },
-          {
-            "file": "planet-purple",
             "rarity": 0.5
           },
           {
@@ -162,6 +174,10 @@
             "rarity": 0.25
           },
           {
+            "file": "ships-docking",
+            "rarity": 0.25
+          },
+          {
             "file": "ships-fleet",
             "rarity": 0.25
           },
@@ -186,7 +202,11 @@
             "rarity": 0.25
           },
           {
-            "file": "ships-guardian",
+            "file": "ships-guardian-active",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-guardian-rogue",
             "rarity": 0.25
           },
           {
@@ -1154,7 +1174,15 @@
             "rarity": 0.25
           },
           {
+            "file": "leftarm-bong",
+            "rarity": 0.25
+          },
+          {
             "file": "leftarm-booze",
+            "rarity": 0.25
+          },
+          {
+            "file": "leftarm-burn",
             "rarity": 0.25
           },
           {
@@ -1263,7 +1291,7 @@
           },
           {
             "file": "leftarm-robocharge",
-            "rarity": 1
+            "rarity": 0.1
           },
           {
             "file": "leftarm-shifter",
@@ -1363,7 +1391,15 @@
             "rarity": 0.25
           },
           {
+            "file": "rightarm-bong",
+            "rarity": 0.25
+          },
+          {
             "file": "rightarm-booze",
+            "rarity": 0.25
+          },
+          {
+            "file": "rightarm-burn",
             "rarity": 0.25
           },
           {
@@ -1472,7 +1508,7 @@
           },
           {
             "file": "rightarm-robocharge",
-            "rarity": 1
+            "rarity": 0.1
           },
           {
             "file": "rightarm-shifter",
