@@ -34,6 +34,11 @@ export function Buy() {
                 </Col>
             </Row>
             <Row>
+                <Col className="buy-now-banner">
+                    <h5>(Testing in progress - switch to Rinkeby)</h5>
+                </Col>
+            </Row>
+            <Row>
                 <Col className="buy-now-banner mt-3 mb-3">
                     {
                         web3.active ?

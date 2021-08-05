@@ -17,7 +17,7 @@ export function About() {
                                 </p>
                                 <p>
                                     Until their <b>mysterious disappearance</b> - and <b>last known transmission</b> [8888] - on
-                                    August XX, 2021.
+                                    August, 2021.
                                 </p>
                             </Col>
                         </Row>
