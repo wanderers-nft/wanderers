@@ -12,20 +12,21 @@ export function About() {
                     <Container fluid>
                         <Row>
                             <Col>
-                                <p><b>The Wanderers</b> are an infamous band of intergalactic space voyagers known for their
-                                    legendary travels.
+                                <p><b>The Wanderers</b> are an infamous band of intergalactic space voyagers known for
+                                    their legendary travels.
                                 </p>
                                 <p>
-                                    Until their <b>mysterious disappearance</b> - and <b>last known transmission</b> [8888] - on
-                                    August, 2021.
+                                    Until their <b>mysterious disappearance</b> - and <b>last known
+                                    transmission</b> [8888] - on August 15, 2021.
                                 </p>
                             </Col>
                         </Row>
                         <Row>
                             <Col className="hero-buy-now mt-5">
-                                <Link to="/buy">
-                                    <Button className="btn-minty" size="lg">Mint your Wanderer now!</Button>
-                                </Link>
+                                {/*<Link to="/buy">*/}
+                                {/*    <Button className="btn-minty" size="lg">Mint your Wanderer now!</Button>*/}
+                                {/*</Link>*/}
+                                <Button className="btn-minty" size="lg" disabled>Coming soon</Button>
                             </Col>
                         </Row>
                     </Container>
@@ -61,9 +62,10 @@ export function About() {
                     <p><b>Buy a Wanderer / 0.08 ETH</b></p>
                 </Col>
                 <Col xxl="auto" lg={2} md="auto" className="hero-buy-now">
-                    <Link to="/buy">
-                        <Button className="btn-minty" size="lg">Buy now</Button>
-                    </Link>
+                    {/*<Link to="/buy">*/}
+                    {/*    <Button className="btn-minty" size="lg">Buy now</Button>*/}
+                    {/*</Link>*/}
+                    <Button className="btn-minty" size="lg" disabled>Soon™</Button>
                 </Col>
             </Row>
         </Container>
