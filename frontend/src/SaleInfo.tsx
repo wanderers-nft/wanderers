@@ -171,38 +171,61 @@ export function SaleInfo(props: SaleProps) {
                                 <h3>Cost: {cost ? parseFloat(formatEther(cost)).toFixed(2) : "..."} ETH each</h3>
                             </Col>
                         </Row>
-                        <Form className="quantity" noValidate onSubmit={sendMint}>
-                            <Row className="mt-4">
-                                <Col className="sale-quantity align-content-center">
-                                    <h3>Quantity:</h3>
-                                </Col>
-                                <Col>
-                                    <Form.Group controlId="buyFormQuantity">
-                                        <Form.Control
-                                            required
-                                            type="number"
-                                            placeholder="1"
-                                            min="1"
-                                            max={perTx ? perTx.toNumber() : 10}
-                                            defaultValue="1"
-                                            className="w-25"
-                                        />
-                                    </Form.Group>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col className="sale-progress-words">
-                                    <p className="mt-2">(max {perTx ? perTx.toNumber() : 10} per tx)</p>
-                                </Col>
-                            </Row>
-                            <Row>
-                                <Col className="sale-progress-words align-items-center my-5">
-                                    <Button type="submit" className="btn-minty">
-                                        MINT
-                                    </Button>
-                                </Col>
-                            </Row>
-                        </Form>
+                        {
+                            ((supply ? supply.toNumber() : 0) !== (maxSupply ? maxSupply.toNumber() : 100))
+                                ?
+                                <Form className="quantity" noValidate onSubmit={sendMint}>
+                                    <Row className="mt-4">
+                                        <Col className="sale-quantity align-content-center">
+                                            <h3>Quantity:</h3>
+                                        </Col>
+                                        <Col>
+                                            <Form.Group controlId="buyFormQuantity">
+                                                <Form.Control
+                                                    required
+                                                    type="number"
+                                                    placeholder="1"
+                                                    min="1"
+                                                    max={perTx ? perTx.toNumber() : 10}
+                                                    defaultValue="1"
+                                                    className="w-25"
+                                                />
+                                            </Form.Group>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col className="sale-progress-words">
+                                            <p className="mt-2">(max {perTx ? perTx.toNumber() : 10} per tx)</p>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col className="sale-progress-words align-items-center my-5">
+                                            <Button type="submit" className="btn-minty">
+                                                MINT
+                                            </Button>
+                                        </Col>
+                                    </Row>
+                                </Form>
+                                :
+                                <>
+                                    <Row>
+                                        <Col className="sale-progress-words mt-3">
+                                            <h1><b>SOLD OUT!</b></h1>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col className="sale-progress-words">
+                                            <h3>Thank you so much for your support.</h3>
+                                        </Col>
+                                    </Row>
+                                    <Row>
+                                        <Col className="sale-progress-words">
+                                            <h4>Please check OpenSea for a Wanderer.</h4>
+                                        </Col>
+                                    </Row>
+
+                                </>
+                        }
                     </>
                     :
                     <Row>

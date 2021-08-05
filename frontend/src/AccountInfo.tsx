@@ -20,7 +20,7 @@ export function AccountInfo() {
         return () => {
             web3.library!.removeAllListeners("block");
         }
-    })
+    }, [web3.library, web3.account])
 
     const onClick = async () => {
         web3.deactivate();
