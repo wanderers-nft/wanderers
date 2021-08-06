@@ -1044,6 +1044,10 @@
             "rarity": 1
           },
           {
+            "file": "window-crack",
+            "rarity": 1
+          },
+          {
             "file": "window-dice",
             "rarity": 1
           },
@@ -1065,10 +1069,6 @@
           },
           {
             "file": "window-purple",
-            "rarity": 1
-          },
-          {
-            "file": "window-sparks",
             "rarity": 1
           },
           {
