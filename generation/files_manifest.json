@@ -235,6 +235,10 @@
         "rarity": 0.5,
         "files": [
           {
+            "file": "panel-1-bounty",
+            "rarity": 0.1
+          },
+          {
             "file": "panel-1-bricks",
             "rarity": 1
           },
@@ -389,6 +393,10 @@
         "multiple": false,
         "rarity": 0.5,
         "files": [
+          {
+            "file": "panel-2-bounty",
+            "rarity": 0.1
+          },
           {
             "file": "panel-2-bricks",
             "rarity": 1
@@ -545,6 +553,10 @@
         "rarity": 0.5,
         "files": [
           {
+            "file": "panel-3-bounty",
+            "rarity": 0.1
+          },
+          {
             "file": "panel-3-bricks",
             "rarity": 1
           },
@@ -700,6 +712,10 @@
         "rarity": 0.5,
         "files": [
           {
+            "file": "panel-4-bounty",
+            "rarity": 0.1
+          },
+          {
             "file": "panel-4-bricks",
             "rarity": 1
           },
@@ -854,6 +870,10 @@
         "multiple": false,
         "rarity": 0.5,
         "files": [
+          {
+            "file": "panel-5-bounty",
+            "rarity": 0.1
+          },
           {
             "file": "panel-5-bricks",
             "rarity": 1
