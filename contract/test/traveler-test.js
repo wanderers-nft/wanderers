@@ -22,6 +22,7 @@ describe("Traveler", function () {
         await traveler.connect(accounts[0]).safeMint(accounts[0].address, 1, {
             value: ethers.utils.parseEther("0.05")
         });
+        await traveler.connect(accounts[0]).claimBalance();
     });
 
     it("Should be able to pre-mint one", async function () {
@@ -48,6 +49,7 @@ describe("Traveler", function () {
         await traveler.connect(accounts[0]).safeMint(accounts[0].address, 16, {
             value: ethers.utils.parseEther("0.8")
         });
+        await traveler.connect(accounts[0]).claimBalance();
     });
 
     it("Should not able to mint exceeding limit", async function () {
@@ -71,6 +73,7 @@ describe("Traveler", function () {
                 value: ethers.utils.parseEther("0.5")
             });
         }
+        await traveler.connect(accounts[0]).claimBalance();
 
         expect(traveler.connect(accounts[0]).safeMint(accounts[0].address, 1, {
             value: ethers.utils.parseEther("0.05")

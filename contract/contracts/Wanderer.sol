@@ -43,6 +43,10 @@ contract Wanderer is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
         sale = true;
     }
 
+    function claimBalance() public onlyOwner {
+        fundsTo.transfer(address(this).balance);
+    }
+
     function safeMint(address to, uint256 quantity) payable public {
         // Sale must be enabled
         require(sale, "Sale disabled");
@@ -54,9 +58,6 @@ contract Wanderer is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
         require(quantity * pricePer <= msg.value, "Not enough ether sent");
         // Mint operation cannot lead to more than max supply
         require(super.totalSupply() + quantity <= maxSupply, "Total supply will exceed limit");
-
-        // Already checked that there is enough ether
-        fundsTo.transfer(msg.value);
 
         for (uint256 i = 0; i < quantity; i++) {
             _safeMint(to, _tokenIdCounter.current());
