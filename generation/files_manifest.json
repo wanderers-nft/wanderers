@@ -64,11 +64,19 @@
             "rarity": 0.5
           },
           {
+            "file": "planet-destroyed",
+            "rarity": 0.1
+          },
+          {
             "file": "planet-duo",
             "rarity": 0.5
           },
           {
             "file": "planet-duo-alt",
+            "rarity": 0.25
+          },
+          {
+            "file": "planet-eden",
             "rarity": 0.25
           },
           {
@@ -199,6 +207,10 @@
           },
           {
             "file": "ships-freighter-battle",
+            "rarity": 0.25
+          },
+          {
+            "file": "ships-freighter-destroyed",
             "rarity": 0.25
           },
           {
@@ -1068,6 +1080,10 @@
             "rarity": 1
           },
           {
+            "file": "window-plants",
+            "rarity": 0.5
+          },
+          {
             "file": "window-purple",
             "rarity": 1
           },
@@ -1081,6 +1097,10 @@
           },
           {
             "file": "window-white",
+            "rarity": 1
+          },
+          {
+            "file": "window-wires",
             "rarity": 1
           }
         ]
