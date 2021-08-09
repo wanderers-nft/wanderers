@@ -49,11 +49,11 @@
         "files": [
           {
             "file": "asteroid-belt",
-            "rarity": 0.5
+            "rarity": 1
           },
           {
             "file": "asteroid-belt-alt",
-            "rarity": 0.5
+            "rarity": 1
           },
           {
             "file": "planet-anger-orb",
@@ -61,7 +61,7 @@
           },
           {
             "file": "planet-blue",
-            "rarity": 0.5
+            "rarity": 1
           },
           {
             "file": "planet-destroyed",
@@ -69,11 +69,11 @@
           },
           {
             "file": "planet-duo",
-            "rarity": 0.5
+            "rarity": 1
           },
           {
             "file": "planet-duo-alt",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "planet-eden",
@@ -81,82 +81,82 @@
           },
           {
             "file": "planet-large-blue-bottom",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "planet-large-blue-top",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "planet-large-purple-bottom",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "planet-large-ring",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "planet-moon",
-            "rarity": 0.5
+            "rarity": 1
           },
           {
             "file": "planet-pink-small",
-            "rarity": 0.5
+            "rarity": 1
           },
           {
             "file": "planet-ring",
-            "rarity": 0.1
+            "rarity": 1
           },
           {
             "file": "planet-ring-dark",
-            "rarity": 0.1
+            "rarity": 1
           },
           {
             "file": "planet-ring-green",
-            "rarity": 0.1
+            "rarity": 1
           },
           {
             "file": "planet-ring-pink",
-            "rarity": 0.1
+            "rarity": 1
           },
           {
             "file": "planet-trio",
-            "rarity": 0.1
+            "rarity": 1
           },
           {
             "file": "planet-trio-large",
-            "rarity": 0.1
+            "rarity": 1
           }
         ]
       },
       {
         "category": "anomalies",
         "multiple": false,
-        "rarity": 0.1,
+        "rarity": 0.15,
         "files": [
           {
             "file": "monolith",
-            "rarity": 0.1
+            "rarity": 0.25
           },
           {
             "file": "wormhole-blue",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "wormhole-glitch",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "wormhole-pink",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "wormhole-purple",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "wormhole-white",
-            "rarity": 0.25
+            "rarity": 1
           }
         ]
       },
@@ -167,71 +167,71 @@
         "files": [
           {
             "file": "ships-battle",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-battle-alt",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-battle-large",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-cargo",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-docking",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-fleet",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-flyby",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-flyby-dogfight",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-flyby-trio",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-freighter",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-freighter-battle",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-freighter-destroyed",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-guardian-active",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-guardian-rogue",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-spacestation",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-triforce",
-            "rarity": 0.25
+            "rarity": 1
           },
           {
             "file": "ships-ufo",
-            "rarity": 0.25
+            "rarity": 1
           }
         ]
       }
