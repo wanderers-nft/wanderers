@@ -44,7 +44,8 @@ contract Wanderer is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
     }
 
     function claimBalance() public onlyOwner {
-        fundsTo.transfer(address(this).balance);
+        (bool success, ) = fundsTo.call{value: address(this).balance}("");
+        require(success, "transfer failed");
     }
 
     function safeMint(address to, uint256 quantity) payable public {
