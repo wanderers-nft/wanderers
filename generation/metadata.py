@@ -8,7 +8,9 @@ cid = "QmaSZ34iHpAJRhtF8Xe1ETf7RCr1NiduVE3g8gxpmFdCdo"
 
 def main():
     names = json.load(open("names.json"))
-    for filename in os.scandir("output/metadata"):
+    for filename in os.scandir("/mnt/e/output/metadata"):
+        if len(filename.name.split(".")) != 2:
+            continue
         transformed = transform_json(
             json.load(open(filename.path)), names, filename.name.split(".")[0]
         )
@@ -18,6 +20,7 @@ def main():
 
 
 def transform_json(data, names, file_name):
+    print(file_name)
     metadata = {
         "animation_url": f"ipfs://{cid}/{file_name}.mp4",
         "image": f"ipfs://{cid}/{file_name}.mp4",
@@ -30,15 +33,15 @@ def transform_json(data, names, file_name):
                 {"trait_type": names[x[0]], "value": names[y]}
             )
     # Hidden attributes
-    if file_name in hidden_metadata.ws16:
+    if int(file_name) in hidden_metadata.ws16:
         metadata["attributes"].append(
             {"trait_type": "special", "value": "Warp Squad Sixteen"}
         )
-    if file_name in hidden_metadata.gm:
+    if int(file_name) in hidden_metadata.gm:
         metadata["attributes"].append(
             {"trait_type": "special", "value": "Guardian Marked"}
         )
-    if file_name in hidden_metadata.radioactive:
+    if int(file_name) in hidden_metadata.radioactive:
         metadata["attributes"].append(
             {"trait_type": "special", "value": "RADIOACTIVE"}
         )
