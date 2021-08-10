@@ -33,8 +33,8 @@
 
 21. Pre-mint the appropriate quantity for giveaways. Destination address is the Gnosis safe.
 22. Set up storefront using OpenSea.
-23. Transfer ownership to the Gnosis safe.
-24. Pre-mint the appropriate quantity for pre-sale. Destination address is the Gnosis safe.
+23. Pre-mint the appropriate quantity for pre-sale. Destination address is the Gnosis safe.
+24. Transfer ownership to the Gnosis safe.
 25. Call `enableSale` to enable sale.
 
 ## Postlaunch
