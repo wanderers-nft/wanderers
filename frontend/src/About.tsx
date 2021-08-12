@@ -31,7 +31,7 @@ export function About() {
                     </Container>
                 </Col>
                 <Col xxl={5} xl={5} lg={12} md={12} className="mt-3 hero">
-                    <video width="480" height="480" muted autoPlay loop>
+                    <video width="480" height="480" muted autoPlay loop className="hero-video">
                         <source src={hero} type="video/mp4"/>
                         Your browser does not support videos.
                     </video>
