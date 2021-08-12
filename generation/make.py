@@ -46,8 +46,8 @@ def main():
     manifest = Manifest(json.load(open("files_manifest.json")))
     music = AudioManifest(json.load(open("audio_manifest.json")))
 
-    procs = 20
-    n = 1000
+    procs = 22
+    n = 8888
     increment = int(n / procs)
     jobs = []
     start = 0

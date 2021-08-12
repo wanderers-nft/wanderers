@@ -14,7 +14,7 @@ async function main() {
     // await hre.run('compile');
 
     // RINKEBY
-    const contractLocation = "0xD3955A8b3bD5E17aE97d9a19Cba661541b11c3b2";
+    const contractLocation = "0xf9a6956531ff6Fa17615d0C90FE73FBf150C7e65";
     const transferOwnershipTo = "0x3668FfF9416fadE4831D2136cba30e74557E2198";
 
     // We get the deployed contract
