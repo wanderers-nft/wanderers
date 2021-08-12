@@ -13,9 +13,9 @@ async function main() {
     // manually to make sure everything is compiled
     // await hre.run('compile');
 
-    // RINKEBY
-    const contractLocation = "0xf9a6956531ff6Fa17615d0C90FE73FBf150C7e65";
-    const transferOwnershipTo = "0x3668FfF9416fadE4831D2136cba30e74557E2198";
+    // MAINNET
+    const contractLocation = "0x8184a482A5038B124d933B779E0Ea6e0fb72F54E";
+    const transferOwnershipTo = "0xd0214b7e8a7821A5Cb07024Bc00D64ece8Cc1067";
 
     // We get the deployed contract
     const traveler = await hre.ethers.getContractAt("Wanderer", contractLocation);

@@ -12,7 +12,7 @@ async function main() {
     // If this script is run directly using `node` you may want to call compile
     // manually to make sure everything is compiled
     // await hre.run('compile');
-    const destinationAddress = "0x72d80f10e7510f0274f308535633F538C39f1fC6";
+    const destinationAddress = "0x2780bE80bA18d0C27540b9cD75E3C49a58c33229";
     const maxSupply = 8888;
     const maxPerTx = 16;
     const pricePer = ethers.utils.parseEther("0.08");

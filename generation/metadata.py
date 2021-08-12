@@ -3,7 +3,7 @@ import os
 
 import hidden_metadata
 
-cid = "QmaSZ34iHpAJRhtF8Xe1ETf7RCr1NiduVE3g8gxpmFdCdo"
+cid = "QmWeXmth66wkCT5RYeBG9p1mnHgzAkTxoAtBdPy3CzE6o8"
 
 
 def main():
@@ -33,11 +33,11 @@ def transform_json(data, names, file_name):
                 {"trait_type": names[x[0]], "value": names[y]}
             )
     # Hidden attributes
-    if int(file_name) in hidden_metadata.ws16:
+    if int(file_name) in hidden_metadata.warp_squad:
         metadata["attributes"].append(
             {"trait_type": "special", "value": "Warp Squad Sixteen"}
         )
-    if int(file_name) in hidden_metadata.gm:
+    if int(file_name) in hidden_metadata.guardian_marked:
         metadata["attributes"].append(
             {"trait_type": "special", "value": "Guardian Marked"}
         )

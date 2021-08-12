@@ -27,7 +27,7 @@ contract Wanderer is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
     // Sale price
     uint256 public pricePer;
 
-    constructor(address payable fundsTo_, uint256 maxSupply_, uint256 maxPerTx_, uint256 pricePer_) ERC721("Wanderers", "WANDER") {
+    constructor(address payable fundsTo_, uint256 maxSupply_, uint256 maxPerTx_, uint256 pricePer_) ERC721("Wanderers", "WANDERER") {
         fundsTo = fundsTo_;
         maxSupply = maxSupply_;
         maxPerTx = maxPerTx_;
@@ -79,7 +79,7 @@ contract Wanderer is ERC721, ERC721Enumerable, ERC721Burnable, Ownable {
     }
 
     function _baseURI() internal pure override returns (string memory) {
-        return "ipfs://QmPtER1T1Gvpx7VQGUfVyvfoX3kNGrX4aQmtTU5mBZ1hVM/";
+        return "ipfs://QmNnWrwfAbsnWvyTgGpaYLdh1oAkBR5B74MjwZh8stTL97/";
     }
 
     function _beforeTokenTransfer(address from, address to, uint256 tokenId) internal override(ERC721, ERC721Enumerable) {

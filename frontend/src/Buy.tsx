@@ -11,8 +11,8 @@ import {Wanderer__factory} from "./typechain";
 // FIXME: Move to mainnet before launch
 export const injectedConnector = new InjectedConnector({
     supportedChainIds: [
-        // 1,      // Mainnet
-        4,      // Rinkeby
+        1,      // Mainnet
+        // 4,      // Rinkeby
     ],
 })
 
@@ -23,19 +23,14 @@ export function Buy() {
         await web3.activate(injectedConnector);
     }
 
-    const RINKEBY = Wanderer__factory
-        .connect("0xf9a6956531ff6Fa17615d0C90FE73FBf150C7e65", web3.library!)
+    const ADDRESS = Wanderer__factory
+        .connect("0x8184a482A5038B124d933B779E0Ea6e0fb72F54E", web3.library!)
 
     return (
         <Container fluid="xxl">
             <Row>
                 <Col className="buy-now-banner">
                     <h1>Mint now!</h1>
-                </Col>
-            </Row>
-            <Row>
-                <Col className="buy-now-banner">
-                    <h5>(Testing in progress - switch to Rinkeby)</h5>
                 </Col>
             </Row>
             <Row>
@@ -55,7 +50,7 @@ export function Buy() {
                     <>
                         <hr/>
                         <Row className="buy-now-banner mt-3">
-                            <SaleInfo address={RINKEBY}/>
+                            <SaleInfo address={ADDRESS}/>
                         </Row>
                     </>
                     : <div/>
