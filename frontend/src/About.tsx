@@ -39,7 +39,7 @@ export function About() {
             </Row>
             <Row className="about-secondary mt-2">
                 <Col>
-                    <Container className="wormhole-container">
+                    <Container className="blackhole-container">
                         <Row>
                             <Col>
                                 <p className="pb-1">
