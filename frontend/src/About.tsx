@@ -2,7 +2,6 @@
 import hero from "./assets/hero.gif";
 import "./About.css";
 import {Button, Col, Container, Image, Row} from "react-bootstrap";
-import {Link} from "react-router-dom";
 
 export function About() {
     return (
