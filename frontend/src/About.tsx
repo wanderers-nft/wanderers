@@ -1,5 +1,5 @@
 // import video_placeholder from "./assets/video_placeholder.png"
-import hero from "./assets/hero.gif";
+import hero from "./assets/hero.mp4";
 import "./About.css";
 import {Button, Col, Container, Image, Row} from "react-bootstrap";
 
@@ -31,7 +31,10 @@ export function About() {
                     </Container>
                 </Col>
                 <Col xxl={5} xl={5} lg={12} md={12} className="mt-3 hero">
-                    <Image src={hero} alt="video placeholder" fluid/>
+                    <video width="480" height="480" muted autoPlay loop>
+                        <source src={hero} type="video/mp4"/>
+                        Your browser does not support videos.
+                    </video>
                 </Col>
             </Row>
             <Row className="about-secondary mt-2">
