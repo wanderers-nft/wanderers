@@ -1,7 +1,7 @@
 // import video_placeholder from "./assets/video_placeholder.png"
 import hero from "./assets/hero.mp4";
 import "./About.css";
-import {Button, Col, Container, Image, Row} from "react-bootstrap";
+import {Button, Col, Container, Row} from "react-bootstrap";
 
 export function About() {
     return (
