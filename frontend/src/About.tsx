@@ -1,5 +1,7 @@
 // import video_placeholder from "./assets/video_placeholder.png"
-import hero from "./assets/hero.mp4";
+import hero_mp4 from "./assets/hero.mp4";
+import hero_webm from "./assets/hero.webm";
+
 import "./About.css";
 import {Button, Col, Container, Row} from "react-bootstrap";
 
@@ -31,8 +33,9 @@ export function About() {
                     </Container>
                 </Col>
                 <Col xxl={5} xl={5} lg={12} md={12} className="mt-3 hero">
-                    <video width="480" height="480" muted autoPlay loop className="hero-video">
-                        <source src={hero} type="video/mp4"/>
+                    <video width="480" height="480" muted autoPlay loop playsInline className="hero-video">
+                        <source src={hero_mp4} type="video/mp4"/>
+                        <source src={hero_webm} type="video/webm"/>
                         Your browser does not support videos.
                     </video>
                 </Col>
