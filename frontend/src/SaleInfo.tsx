@@ -32,13 +32,24 @@ export function SaleInfo(props: SaleProps) {
         event.stopPropagation();
 
         if (form.checkValidity() !== false) {
+            const addGasLimitBuffer = (value: BigNumber) => value
+                .mul(BigNumber.from(10000 + 2000))
+                .div(BigNumber.from(10000))
+
             const quantity = BigNumber.from(form.buyFormQuantity.value);
             const totalCost = quantity.mul(cost ?? 0);
+
+            const gasEstimate = await props.address.estimateGas.safeMint(web3.account!, quantity, {
+                value: totalCost
+            });
+
             const receipt = await props.address
                 .connect(web3.library?.getSigner()!)
                 .safeMint(web3.account!, quantity, {
-                    value: totalCost
+                    value: totalCost,
+                    gasLimit: addGasLimitBuffer(gasEstimate)
                 });
+
             await receipt.wait();
         }
     }
