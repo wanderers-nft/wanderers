@@ -4,6 +4,7 @@ import hero_webm from "./assets/hero.webm";
 
 import "./About.css";
 import {Button, Col, Container, Row} from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 export function About() {
     return (
@@ -24,10 +25,10 @@ export function About() {
                         </Row>
                         <Row>
                             <Col className="hero-buy-now mt-5">
-                                {/*<Link to="/buy">*/}
-                                {/*    <Button className="btn-minty" size="lg">Mint your Wanderer now!</Button>*/}
-                                {/*</Link>*/}
-                                <Button className="btn-minty" size="lg" disabled>Coming soon</Button>
+                                <Link to="/buy">
+                                    <Button className="btn-minty" size="lg">Mint your Wanderer now!</Button>
+                                </Link>
+                                {/*<Button className="btn-minty" size="lg" disabled>Coming soon</Button>*/}
                             </Col>
                         </Row>
                     </Container>
@@ -67,10 +68,10 @@ export function About() {
                     <p><b>Buy a Wanderer / 0.08 ETH</b></p>
                 </Col>
                 <Col xxl="auto" lg={2} md="auto" className="hero-buy-now">
-                    {/*<Link to="/buy">*/}
-                    {/*    <Button className="btn-minty" size="lg">Buy now</Button>*/}
-                    {/*</Link>*/}
-                    <Button className="btn-minty" size="lg" disabled>Soon™</Button>
+                    <Link to="/buy">
+                        <Button className="btn-minty" size="lg">Buy now</Button>
+                    </Link>
+                    {/*<Button className="btn-minty" size="lg" disabled>Soon™</Button>*/}
                 </Col>
             </Row>
         </Container>
