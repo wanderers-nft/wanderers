@@ -231,10 +231,11 @@ export function SaleInfo(props: SaleProps) {
                                     </Row>
                                     <Row>
                                         <Col className="sale-progress-words">
-                                            <h4>Please check OpenSea for a Wanderer.</h4>
+                                            <a className="open-sea" href="https://opensea.io/collection/the-wanderers">
+                                                <h4>Please check OpenSea for a Wanderer.</h4>
+                                            </a>
                                         </Col>
                                     </Row>
-
                                 </>
                         }
                     </>
