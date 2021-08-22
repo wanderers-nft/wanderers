@@ -9,7 +9,8 @@ export function Navigation() {
                     <h1><Link to="/">WANDERERS</Link></h1>
                 </Col>
                 <Col>
-                    <Link to="/buy">Buy!</Link>
+                    {/*<Link to="/buy">Buy!</Link>*/}
+                    <a href="https://opensea.io/collection/the-wanderers">Buy</a>
                 </Col>
                 <Col>
                     /

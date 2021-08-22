@@ -22,14 +22,6 @@ export function About() {
                                 </p>
                             </Col>
                         </Row>
-                        <Row>
-                            <Col className="hero-buy-now mt-5">
-                                <a href="https://opensea.io/collection/the-wanderers">
-                                    <Button className="btn-minty" size="lg">Buy on OpenSea</Button>
-                                </a>
-                                {/*<Button className="btn-minty" size="lg" disabled>Coming soon</Button>*/}
-                            </Col>
-                        </Row>
                     </Container>
                 </Col>
                 <Col xxl={5} xl={5} lg={12} md={12} className="mt-3 hero">
@@ -62,13 +54,13 @@ export function About() {
                     </Container>
                 </Col>
             </Row>
-            <Row className="about m-lg-5 m-md-1 align-items-center">
-                <Col xxl={10} lg={10} md={12}>
-                    <p><b>Buy a Wanderer / 0.08 ETH</b></p>
+            <Row className="about m-lg-4 m-md-1 align-items-center">
+                <Col xxl={8} lg={8} md={9}>
+                    <p><b>Sold out! Check out Wanderers on the secondary market.</b></p>
                 </Col>
-                <Col xxl="auto" lg={2} md="auto" className="hero-buy-now">
+                <Col xxl="auto" lg={4} md="auto" className="hero-buy-now">
                     <a href="https://opensea.io/collection/the-wanderers">
-                        <Button className="btn-minty" size="lg">Buy now</Button>
+                        <Button className="btn-minty" size="lg">Buy on OpenSea</Button>
                     </a>
                     {/*<Button className="btn-minty" size="lg" disabled>Soon™</Button>*/}
                 </Col>
