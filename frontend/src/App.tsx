@@ -19,6 +19,7 @@ function App() {
 
                 </Switch>
             </HashRouter>
+            <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "eb38fdd04d394e8f9d021125831dd0fe"}'/>
         </div>
     );
 }
